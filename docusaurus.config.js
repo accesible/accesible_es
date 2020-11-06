@@ -4,12 +4,12 @@ module.exports = {
     heroTitle: 'guía de accesibilidad web',
   },
   tagline: 'Pautas de accesibilidad resumidas',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://accesible.es',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'accesible', // Usually your GitHub org/user name.
+  projectName: 'accesible_es', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'accesible.es',
