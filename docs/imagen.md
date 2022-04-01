@@ -14,7 +14,7 @@ title: Imágenes
     <!-- imagen decorativa -->
     <img src="mi-imagen-decorativa.jpg" alt="">
   ```
-- El texto alternativo debe incluir una descripción concisa (**125 caracteres máximo**), que trasnmita la misma información que la imagen.
+- El texto alternativo debe incluir una descripción concisa (**125 caracteres máximo**), intentando transmitir la misma información que la imagen.
 - En caso de descripciones muy largas, se debe usar el atributo [longdesc](https://www.w3.org/TR/WCAG20-TECHS/H45.html)
 - Imágenes funcionales deben llevar en el **alt la acción que realizan**.
 - Si la imagen tiene información compleja, como gráficos, se debe añadir breve texto identificativo y, a continuación, la descripción detallada de la información debe ser proporcionada en otros lugares (por ejemplo, en una tabla de datos).
