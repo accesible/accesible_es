@@ -8,7 +8,7 @@ title: Pautas
 
 Las [WCAG 2.1](accesibilidad#wcag-21) se organizan en cuatro principios, perceptible, operable, comprensible y robusto, a su vez, cada una de estos principios tiene un conjunto de pautas.
 
-Estas pautas las hemos organizado en las siguientes categorías:
+Hemos distribuido estas pautas en las siguientes categorías:
 
 - [Color](color)
 - [Contenido](contenido)

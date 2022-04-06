@@ -59,7 +59,7 @@ Su objetivo es que estos recursos sean utilizables para el máximo número de pe
 Te proponemos unas pruebas básicas para que apliques en tu sitio:
 
 - Aumenta el zoom del navegador un 200% (CTRL +).
-- Utiliza sólo el teclado para moverte por todas las aŕeas web, formularios, buscadores, etc. (Teclas ←↑↓→ TAB, SHIFT+TAB, ESC y ENTER .)
+- Utiliza sólo el teclado para moverte por las distintas las áreas, formularios, buscadores, etc. (Teclas ←↑↓→ TAB, SHIFT+TAB, ESC y ENTER .)
 - Navega usando un lector de pantalla.
 - Navega con los estilos css desactivados.
 
@@ -69,9 +69,10 @@ Para una revisión más avanzada, te recomendamos usar alguna de estas [herramie
 
 ### ¿Es complicado hacer una web accesible?
 
-La respuesta depende de varios factores:
+En principio no deberia ser complicado, pero depende de varios factores:
 
-- **Tipo de web**, no es igual hacer accesible un simple blog que una galería multimedia o una intranet de gestión de usuarios por poner un ejemplo.
+
+- **Tipo de web**, no es igual hacer accesible una web con pocas secciones que una herramienta de gestión de usuarios, por poner un ejemplo.
 
 - También influye si **hemos tenido en cuenta la accesibilidad durante la fase de desarrollo** de nuestro sitio, o vamos a aplicarlo con posterioridad.
 

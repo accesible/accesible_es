@@ -8,8 +8,9 @@ title: Multimedia
 
 ## Video / Audio
 
-- Todos los elementos multimedia, deben contar con un título y/o descripción 
-- **Los contenidos multimedia no deben comenzar a reproducirse por defecto**
+- No reproduzcas automáticamente contenido multimedia (puedes ofrecer opción de autoreproducción)
+- Todos los elementos multimedia, deben contar con un título y/o descripción.
+- **Los contenidos multimedia no deben comenzar a reproducirse por defecto**.
 - En audios, suficiente contraste entre la pista principal y el sonido de fondo.
 - Añade una **transcripción y subtítulos**, con esto además mejoramos el SEO.
 - Los subtítulos **deben tener un tamaño, duración y contraste adecuado**, y durar lo suficiente para su lectura.
@@ -31,7 +32,7 @@ title: Multimedia
 
 ### Audio
 
-- Si un sonido se reproduce automáticamente, apágalo también automáticamente antes de tres segundos.
-- Ofrece un control al usuario en el inicio de la página web para que pueda apagar los sonidos que suenan automáticamente.
+- No reproduzcas audios automáticamente, si necesitas algún indicativo sonoro automático, este no debe sonar más de tres segundos.
+- Ofrece un control al usuario en el inicio de la página web para que pueda desactivar los sonidos que suenan automáticamente.
 - Reproduce los sonidos sólo a petición del usuario.
 - Ofrece una opción que permita apagar el sonido de todo el sitio web.

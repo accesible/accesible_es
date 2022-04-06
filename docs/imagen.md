@@ -15,7 +15,7 @@ title: Imágenes
     <img src="mi-imagen-decorativa.jpg" alt="">
   ```
 - El texto alternativo debe incluir una descripción concisa (**125 caracteres máximo**), intentando transmitir la misma información que la imagen.
-- En caso de descripciones muy largas, se debe usar el atributo [longdesc](https://www.w3.org/TR/WCAG20-TECHS/H45.html)
+- En caso de descripciones muy largas, se debe usar el atributo [longdesc](https://www.w3.org/TR/WCAG20-TECHS/H45.html).
 - Imágenes funcionales deben llevar en el **alt la acción que realizan**.
 - Si la imagen tiene información compleja, como gráficos, se debe añadir breve texto identificativo y, a continuación, la descripción detallada de la información debe ser proporcionada en otros lugares (por ejemplo, en una tabla de datos).
 - Si la imagen está suficientemente descrita en el texto - por ejemplo, un simple diagrama que ilustra lo que está escrito en el texto de la página web puede tener breve texto alternativo como "Diagrama de flujo de trabajo como se ha descrito anteriormente.”, o bien dejar vacío el texto alternativo.
@@ -23,7 +23,6 @@ title: Imágenes
 ## Imagen en botón
 
 ## Imagen en link
-
 
 
 Si el enlace no tiene texto descriptivo, debemos añadir la etiqueta `alt` y el texto debe transmitir la acción.
@@ -48,7 +47,6 @@ Si el enlace tiene texto descriptivo, debemos dejar vacío el atributo `alt`
     Buscar
 </a>
 ```
-
 
 
 - Si la imagen está dentro de un botón, debemos añadir también el atributo `title`, usar `aria-label` o bien añadir un texto.
