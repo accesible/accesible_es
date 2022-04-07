@@ -20,7 +20,7 @@ title: SVG
 
 ### SVG dentro de enlace
 
-Si el enlace incluye texto descriptivo, únicamente debemos añadir el atributo `aria-hidden="true"`
+Si el enlace incluye texto descriptivo fuera del svg, únicamente debemos añadir el atributo `aria-hidden="true"`
 
 ```html
 <a href="#!">
@@ -38,7 +38,7 @@ Si el enlace incluye texto descriptivo, únicamente debemos añadir el atributo 
 </a>
 ```
 
-Si el enlace no tiene texto descriptivo, debemos añadir los atributos `role="img"` y `aria-label` con la acción.
+Si el enlace no tiene texto descriptivo, debemos añadir los atributos `role="img"` y `aria-label` con la acción que se lanzará al pulsar el enlace.
 
 ```html
 <a href="#!">
