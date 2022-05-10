@@ -1,6 +1,9 @@
 ---
 id: encabezado
 title: Encabezados
+image: /img/encabezado.svg
+description: Documentación para añadir los encabezados de forma accesible en la web
+keywords: [encabezados accesibles, orden encabezados, jerarquía]
 ---
 
 ![img](/img/encabezado.svg)

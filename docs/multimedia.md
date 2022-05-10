@@ -1,6 +1,9 @@
 ---
 id: multimedia
 title: Multimedia
+image: /img/multimedia.svg
+description: Documentación para añadir contenido multimedia accesible en tu sitio web
+keywords: [video y audio accesible, reproductor accesible, wai-aria multimedia]
 ---
 
 ![img](/img/multimedia.svg) 
@@ -8,10 +11,9 @@ title: Multimedia
 
 ## Video / Audio
 
-- No reproduzcas automáticamente contenido multimedia (puedes ofrecer opción de autoreproducción)
+- **No reproduzcas automáticamente** contenido multimedia (Puedes añadir una opción de reproducción automática, pero debe ser activada por el usuario)
 - Todos los elementos multimedia, deben contar con un título y/o descripción.
-- **Los contenidos multimedia no deben comenzar a reproducirse por defecto**.
-- En audios, suficiente contraste entre la pista principal y el sonido de fondo.
+- En el audio, debe haber suficiente contraste entre la pista principal y el sonido de fondo.
 - Añade una **transcripción y subtítulos**, con esto además mejoramos el SEO.
 - Los subtítulos **deben tener un tamaño, duración y contraste adecuado**, y durar lo suficiente para su lectura.
 - Todo los **controles deben ser accesibles mediante teclado.**

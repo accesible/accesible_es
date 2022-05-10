@@ -1,6 +1,9 @@
 ---
 id: modal
 title: Modales
+image: /img/modal.svg
+description: Documentación para añadir modales accesibles en tu sitio web
+keywords: [modales accesibles, dialog, aria-modal]
 ---
 
 ![img](/img/modal.svg)

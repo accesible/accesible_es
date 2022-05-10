@@ -1,6 +1,9 @@
 ---
 id: imagen
 title: Imágenes
+image: /img/imagen.svg
+description: Documentación para añadir imágenes accesibles en tu sitio web
+keywords: [imágenes accesibles, texto alternativo, wai-aria imagen]
 ---
 
 ![img](/img/imagen.svg) 

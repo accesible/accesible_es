@@ -1,6 +1,9 @@
 ---
 id: formulario
 title: Formularios
+image: /img/formulario.svg
+description: Documentación y consejos para crear formularios accesibles en tu sitio web
+keywords: [formularios accesibles, asociar label, aria-label, fieldset, wai-aria, switch]
 ---
 
 ![img](/img/formulario.svg)

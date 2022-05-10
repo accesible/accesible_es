@@ -1,6 +1,9 @@
 ---
 id: wai-aria
 title: WAI-ARIA
+image: /img/wai-aria.svg
+description: Documentación para utilizar los atributos wai-aria en tu sitio web
+keywords: [wai-aria, atributos y roles wai-aria]
 ---
 
 ![img](/img/wai-aria.svg)

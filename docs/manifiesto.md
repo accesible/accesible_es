@@ -1,6 +1,9 @@
 ---
 id: manifiesto
 title: 📜 Manifiesto
+image: /img/logo.svg
+description: La guía fácil de accesibilidad web
+keywords: [accesibilidad web, pautas accesibilidad, wai-aria]
 ---
 
 > La **accesibilidad es un derecho** y nos beneficia a todos. ¡Fomentemos una web más justa e igualitaria!

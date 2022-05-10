@@ -1,6 +1,9 @@
 ---
 id: svg
 title: SVG
+image: /img/svg.svg
+description: Documentación para añadir imágenes svg accesibles en tu sitio web
+keywords: [svg accesible, svg enlaces, wai-aria svg]
 ---
 
 ![ ](/img/svg.svg) 

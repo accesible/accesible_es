@@ -1,7 +1,9 @@
 ---
 id: recursos
 title: Recursos
-# sidebar_label: Recursos accesibilidad
+image: /img/logo.svg
+description: La guía fácil de accesibilidad web
+keywords: [recursos accesibilidad web, test accesibilidad, plugins]
 ---
 
 Recopilación de recursos gratuitos para analizar y mejorar la accesibilidad de un sitio web.

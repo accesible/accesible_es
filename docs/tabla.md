@@ -1,6 +1,9 @@
 ---
 id: tabla
 title: Tablas
+image: /img/tabla.svg
+description: Documentación para añadir tablas accesibles en tu sitio web
+keywords: [tabla accesible, tablas complejas, wai-aria tabla]
 ---
 
 ![img](/img/tabla.svg) 

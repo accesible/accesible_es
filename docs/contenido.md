@@ -1,6 +1,9 @@
 ---
 id: contenido
 title: Contenido
+image: /img/contenido.svg
+description: Documentación para incrementar la accesibilidad del contenido web
+keywords: [texto accesible, listas accesibles, abreviaturas y acrónimos]
 ---
 
 ![img](/img/contenido.svg)

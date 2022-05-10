@@ -1,6 +1,9 @@
 ---
 id: accesibilidad
 title: Accesibilidad
+image: /img/logo.svg
+description: La guía fácil de accesibilidad web
+keywords: [accesibilidad web, pautas accesibilidad, wai-aria]
 ---
 
 ## Definición
@@ -44,7 +47,7 @@ Su objetivo es que estos recursos sean utilizables para el máximo número de pe
 
 - Busca la **igualdad de oportunidades** para todos.
 - Incrementa la cuota de mercado y audiencia de la web debido a que:
-	- **Mejora la indexación**. Los motores de búsqueda identifica mejor los contenidos, y en consecuencia, tendremos mejor posicionamiento
+	- **Mejora el SEO**. Los motores de búsqueda identifica mejor los contenidos, y en consecuencia, tendremos mejor posicionamiento
 	- Los contenidos son más fáciles de **adaptar a distintos dispositivos**
 - **Mejora la usabilidad**
 - Refuerza positivamente la imagen de sitio (actitud socialmente responsable y diferenciación con la competencia)

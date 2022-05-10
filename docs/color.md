@@ -1,6 +1,9 @@
 ---
 id: color
 title: Color
+image: /img/color.svg
+description: Documentación para utlizar el color de forma accesible en tu sitio web
+keywords: [color accesible, contraste accesibilidad, gráficas accesibles]
 ---
 
 ![img](/img/color.svg)
