@@ -30,7 +30,8 @@ export default function Home() {
   return (
     <Layout
       title={`Accesibilidad web `}
-      description="La guía fácil de accesibilidad web">
+      description="La guía fácil de accesibilidad web"
+      image="/img/logo.svg">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
