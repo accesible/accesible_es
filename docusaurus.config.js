@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/vsDark');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Accesible',
-  tagline: 'La guía fácil de accesibilidad web',
+  title: 'Guía rápida de accesibilidad web',
+  tagline: 'La guía fácil sobre la accesibilidad web',
   url: 'https://accesible.es',
   baseUrl: '/',
   trailingSlash: false,

@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/colabora.svg').default,
     description: (
       <>
-        Este es un proyecto abierto donde cualquier persona puede <a href="manifiesto#cómo-colaborar">colaborar</a>.
+        Este es un proyecto abierto en el que cualquier persona puede <a href="manifiesto#cómo-colaborar">colaborar</a>.
       </>
     ),
   },
@@ -39,7 +39,7 @@ function Feature({Svg, title, description}) {
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="padding-horiz--md">
-        <h3>{title}</h3>
+        <h2>{title}</h2>
         <p>{description}</p>
       </div>
     </div>
