@@ -11,16 +11,25 @@ keywords: [formularios accesibles, asociar label, aria-label, fieldset, wai-aria
 Los formularios son una forma de interacción con el usuario muy importante, como registros, inicios de sesión, o el envío de cualquier otro tipo de información.
 
 - Todos los campos activos deben ser accesibles mediante **tabulación.**
-- Todo los los controles de formulario (input, textarea, select) deben tener **asociado un label**, o en su defecto, el atributo `aria-label`.
+- Añade la información que se relaciona con todo el formulario antes del inicio del formulario.
+- Todo los los controles de formulario (input, textarea, select) deben tener **asociado un label**, o en su defecto, el atributo `aria-label` que especifique claramente el propósito del campo.
 - **Resalta los campos cuando se haga foco** sobre ellos.
-- Los **campos obligatorios** deben quedar claramente marcados (asterisco, texto descriptivo, etc) y tener el atributo `aria-required`.
-- Ofrece espacio suficiente entre campos y **zonas clickables amplias**. (mínimo 44px por 44px [Enlace criterio 2.5.5](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html))
+- Los **campos obligatorios** deben quedar claramente marcados (asterisco, texto descriptivo, etc) y tener el atributo `aria-required`. [[Criterio 3.3.2]](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html)
+- Ofrece espacio suficiente entre campos y **zonas clickables amplias**. (mínimo 44px por 44px) [[Criterio 2.5.5 - Tamaño objetivo]](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html)
 - **Ofrece tiempo suficiente para completar** un formulario (caducidad de sesión).
-- Usa **autocompletado** en campos de búsqueda, con el atributo `autocomplete`.
+- Usa **autocompletado** cuando sea posible con el atributo `autocomplete`. [[Criterio 1.3.5 - Identificar propósito de entrada]](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html)
 - Cuando se envíe los datos de un formulario, **informa al usuario de la acción realizada,** para formularios complejos, es útil mostrar una página de **confirmación de la información facilitada** antes de enviarla.
-- **Ofrece ayuda e información complementaria** para rellenar campos que puedan ser complejos, utiliza el atributo `aria-describedby`.
+- **Ofrece ayuda e información complementaria** para rellenar campos que puedan ser complejos, utiliza el atributo `aria-describedby`. [[Criterio 3.3.2]](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html)
 - No uses el [botón reset](#botón-reset).
-- Utiliza los elementos [fieldset y legend](#fieldset-y-legend) para describir grupos de controles de formulario.
+- Utiliza los elementos [fieldset y legend](#fieldset-y-legend) para describir grupos de controles de formulario. [[Criterio 1.3.1]](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html)
+
+## Gestión de errores
+
+- Identifica dónde están los errores y describe el problema en un lenguaje que la gente entienda [[Criterio 3.3.1]](https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html), estos deben ser **visibles y percetibles** usando colores, iconos y texto. [[Criterio 1.4.1 - Uso del color]](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html)
+
+- Ofrece sugerencias para corregir un error de entrada. [[Critero 3.3.3]](https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html)
+- Escriba mensajes de error para ser lo más específico posible, en lugar de usar mensajes genéricos. [[Critero 3.3.1]](https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html)
+- Evita poner enlaces dentro del texto del mensaje de error.
 
 ## Foco
 
@@ -302,6 +311,6 @@ Si usamos un `<input>` del tipo checkbox, debemos añadir una etiqueta `<label>`
 
 ## Botón reset
 
-El uso de este botón era muy común hace años. Con el tiempo se renunció a su uso debido a la facilidad de pulsarlo por  error y vaciar todos los campos (en formularios grandes esto es una auténtica pesadilla 💀).
+El uso de este botón era muy común hace años. Con el tiempo se renunció a su uso debido a la facilidad de pulsarlo por  error y vaciar todos los campos, por ejemplo imagina rellenar un formulario con muchos campos y por error pinchar en el botón reset 💀.
 
 Eso sí, debemos dar la opción a que el usuario pueda restablecer el valor por defecto de campos de opción como radiobutton o checkbox.

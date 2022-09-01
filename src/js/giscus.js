@@ -1,0 +1,16 @@
+<script src="https://giscus.app/client.js"
+        data-repo="accesible/accesible_es"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkzMTA3MjI0MTY="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEoU_cM4CRKxG"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="es"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>

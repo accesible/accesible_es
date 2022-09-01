@@ -47,7 +47,15 @@ WAI-ARIA es una especificación escrita por la W3C pero no tiene relación con H
     - `aria-selected` Establece o elimina el estado “selected” del elemento.
     - `aria-current` Indica qué elemento actual dentro de un contenedor o conjunto    de elementos relacionados.
 
+## Aria-live
 
+Añadiremos el atributo `aria-live`  para indicar que es una "región viva", es decir, que su contenido se modifica y actualiza dinámicamente. Por ejemplo un listado de "Últimos mensajes", que se actualiza cada 10 segundos automáticamente.
+
+- `aria-live="off"` - los cambios no se anunciarán.
+- `aria-live="polite"` - los cambios se anunciarán al usuario pero sin interrumpirle de su acción actual.
+- `aria-live="assertive"` - los cambios se anuncian de inmediato, independientemente de lo que el usuario esté haciendo. 
+
+El valor por defecto de `aria-live` es assertive.
 
 ## Tabindex
 

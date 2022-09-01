@@ -25,10 +25,6 @@ keywords: [texto accesible, listas accesibles, abreviaturas y acrónimos]
 - No escribas grandes cantidades de texto en MAYÚSCULAS.
 - Para texto animado, [utiliza prefrencias de movimiento](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)
 - **Utiliza un lenguaje sencillo** y evita las figuras retóricas, los modismos y las metáforas complicadas.
-- Añade el atributo **lang** en textos donde quieras que los lectores adapten la pronunciación. 
-    ```html 
-        ... y gritó, <span lang="fr">c'est fini!</span>
-    ```
 - **Recomendamos no usar más de 2 tipos de fuente**, cuantas más usemos, más tiempo de adaptación necesitará el usuario (a parte de empeorar el rendimiento de la web).
 
 ### Tamaño de fuente
@@ -36,7 +32,7 @@ keywords: [texto accesible, listas accesibles, abreviaturas y acrónimos]
 - **No uses medidas fijas como px**.
 - El tamaño de fuente debe ser de al menos **12-14 puntos** o su equivalente.
 - Texto en imágenes debe ser al menos de 14 puntos y tener [contraste](color#contraste) suficiente.
-- Permite a los usuarios **incrementar el tamaño** de todos los textos **hasta el 200%**.
+- Permite a los usuarios **incrementar el tamaño** de todos los textos **hasta el 200%**. [Criterio 1.4.4](https://www.w3.org/WAI/WCAG21/Understanding/resize-text)
 
 
 ### Espaciado
@@ -129,20 +125,31 @@ Si conocemos la posición de los elementos dentro del listado, usaremos el atrib
 
 Más información [Feed role - developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/feed_role)
 
-## Metatags
+## Idioma
 
-- **lang**, debemos especificar un idioma para la página.
+- Dentro de la etiqueta `<html>`, debemos especificar un idioma para la página mediante el atributo **lang**. [Criterio 3.1.1 - Idioma de la página](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page)
     ```html
         <html lang="en">
     ```
-- **viewport** - nunca bloquear el zoom, no uses:
-    - `user-scalable=no`
-    - `maximum-scale=1.0`
-    - la forma correcta de uso de viewport sería la siguiente:
 
-    ```html
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+- Añade el atributo **lang** en textos donde quieras que los lectores adapten la pronunciación. [Criterio 3.1.2 - Idiomas en contenido](https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html) 
+    ```html 
+        ... y gritó, <span lang="fr">c'est fini!</span>
     ```
+
+## Zoom
+
+No debemos bloquer el zoom, no uses los atributos `user-scalable=no` ni `maximum-scale=1.0` de la metatag viewport.
+
+La forma correcta de uso de viewport sería la siguiente:
+
+  ```html
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  ```
+
+El usuario debe poder hacer zoom de 320px a 1280px. (ampliación del 400%). [Criterio 1.4.10 - Reflujo](https://www.w3.org/WAI/WCAG21/Understanding/reflow#viewing-distance-and-display-resolution)
+
+Asegúrate de que las personas **puedan aumentar el espaciado del texto** y seguir leyendo y usando todo .
 
 
 ## Responsive
@@ -150,13 +157,13 @@ Más información [Feed role - developer.mozilla.org](https://developer.mozilla.
 - Usa mediaqueries
 - Ajusta contenidos usando `grid` o `flexbox`.
 - No uses medidas fijas para contenedores.
-- No bloquees la capacidad de hacer zoom.
+- Permite que las personas puedan usar la vista horizontal o vertical y seguir leyendo y usando todo. [Criterio 1.3.4 - Orientación](https://www.w3.org/WAI/WCAG21/Understanding/orientation.html)
 - La información debe ser visible y **no requerir scroll en dos dimensiones** para:
   - Contenido que se desplaza en vertical con una anchura equivalente a 320 píxeles CSS.
   - Contenido que se desplaza en horizontal con una altura equivalente a 256 píxeles CSS.
 
 :::tip
-Hay excepciones donde si se permite scroll en dos dimensiones, como las imágenes grandes, mapas, tablas, etc.
+Hay excepciones donde si se permite scroll en dos dimensiones, como en imágenes grandes, mapas o tablas.
 :::
 
 
