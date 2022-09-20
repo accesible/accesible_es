@@ -59,3 +59,9 @@ img.full {
   font-style: italic;
   border-color: var(--ifm-color-primary);
 }
+
+blockquote {
+  margin: 3rem 0;
+  background: #fff8a5;
+  padding: 10px;
+}

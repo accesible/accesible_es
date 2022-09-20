@@ -311,6 +311,8 @@ Si usamos un `<input>` del tipo checkbox, debemos añadir una etiqueta `<label>`
 
 ## Botón reset
 
-El uso de este botón era muy común hace años. Con el tiempo se renunció a su uso debido a la facilidad de pulsarlo por  error y vaciar todos los campos, por ejemplo imagina rellenar un formulario con muchos campos y por error pinchar en el botón reset 💀.
+Con el tiempo ha ido cayendo en desuso, uno de los motivos es la facilidad con la que puede ser pulsado por error y vaciar todos los campos. 
 
-Eso sí, debemos dar la opción a que el usuario pueda restablecer el valor por defecto de campos de opción como radiobutton o checkbox.
+Imagina estar rellenando un formulario con muchos campos y por error pinchar en el botón reset 💀; por ese motivo, si lo añadimos, debemos añadir un mensaje de confirmación para evitar sustos.
+
+Los que si debemos ofrecer, es la opción a que el usuario pueda restablecer el valor por defecto de campos de opción como radiobutton o checkbox.
