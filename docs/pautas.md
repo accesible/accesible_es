@@ -1,6 +1,6 @@
 ---
 id: pautas
-title: Pautas
+title: Pautas de accesibilidad
 image: /img/logo.svg
 description: La guía fácil de accesibilidad web
 keywords: [accesibilidad web, pautas accesibilidad, wai-aria]
@@ -26,4 +26,3 @@ Hemos distribuido estas pautas en las siguientes categorías:
 - [WAI-ARIA](wai-aria)
 
 Para cualquier consulta o reporte de información [contáctanos](mailto:accesible.es@gmail.com).
-

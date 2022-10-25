@@ -72,8 +72,7 @@ Para una revisión más avanzada, te recomendamos usar alguna de estas [herramie
 
 ### ¿Es complicado hacer una web accesible?
 
-En principio no deberia ser complicado, pero depende de varios factores:
-
+La respuesta depende de varios factores:
 
 - **Tipo de web**, no es igual hacer accesible una web con pocas secciones que una herramienta de gestión de usuarios, por poner un ejemplo.
 
@@ -87,7 +86,7 @@ La <abbr title="Web Content Accessibility Guidelines" lang="en">WAI</abbr> o Ini
 
 Este organismo ha diseñado unas directrices para ser estándares técnicos estables y de referencia. Para mayor facilidad, estos estándares se han organizado bajo 4 principios: perceptibles, operables, comprensibles y robustos.
 
-La última especificación recomendada por W3C es la <abbr title="Web Content Accessibility Guidelines" lang="en">WCAG</abbr> 2.1 (5 de junio de 2018)
+> La última especificación recomendada por W3C es la <abbr title="Web Content Accessibility Guidelines" lang="en">WCAG</abbr> 2.1 (5 de junio de 2018)
 
 ## Niveles accesibilidad
 

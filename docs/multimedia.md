@@ -2,17 +2,16 @@
 id: multimedia
 title: Multimedia
 image: /img/multimedia.svg
-description: Documentación para añadir contenido multimedia accesible en tu sitio web
+description: Contenido multimedia accesible para la web con ejemplos sencillos
 keywords: [video y audio accesible, reproductor accesible, wai-aria multimedia]
 ---
 
 ![img](/img/multimedia.svg) 
 
-
 ## Video / Audio
 
-- **No reproduzcas automáticamente** contenido multimedia (Puedes añadir una opción de reproducción automática, pero debe ser activada por el usuario)
-- Todos los elementos multimedia, deben contar con un título y/o descripción.
+- **No reproduzcas automáticamente** contenido multimedia (Puedes añadir una opción de reproducción automática, pero debe ser activada bajo demanda del usuario).
+- Todos los elementos multimedia, **deben contar con un título y/o descripción**.
 - En el audio, debe haber suficiente contraste entre la pista principal y el sonido de fondo.
 - Añade una **transcripción y subtítulos**, con esto además mejoramos el SEO.
 - Los subtítulos **deben tener un tamaño, duración y contraste adecuado**, y durar lo suficiente para su lectura.
@@ -34,7 +33,6 @@ keywords: [video y audio accesible, reproductor accesible, wai-aria multimedia]
 
 ### Audio
 
-- No reproduzcas audios automáticamente, si necesitas algún indicativo sonoro automático, este no debe sonar más de tres segundos. [Criterio 1.4.2 - Control de audio](https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html)
-- Ofrece un control al usuario en el inicio de la página web para que pueda desactivar los sonidos que suenan automáticamente.
-- Reproduce los sonidos sólo a petición del usuario.
+- **No reproduzcas audio automáticamente**, en caso de necesitar algún indicativo sonoro automático, este no debe sonar más de tres segundos. [Criterio 1.4.2 - Control de audio](https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html)
+- Ofrece un control al usuario en el inicio de la página web para que **pueda desactivar los sonidos** que suenan automáticamente.
 - Ofrece una opción que permita apagar el sonido de todo el sitio web.

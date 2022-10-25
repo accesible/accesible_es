@@ -2,17 +2,18 @@
 id: svg
 title: SVG
 image: /img/svg.svg
-description: Documentación para añadir imágenes svg accesibles en tu sitio web
+description: Svg accesible para la web con ejemplos sencillos
 keywords: [svg accesible, svg enlaces, wai-aria svg]
 ---
 
 ![ ](/img/svg.svg) 
 
-
-
 - Si usas svg decorativos, añade el atributo `aria-hidden="true"`
 - Si ofreces compatibilidad con internet explorer, añade el atributo `focusable="false"`.
-- Para asegurarnos la compatibilidad las etiquetas `title` y `desc` si fuera necesario:
+- Para asegurarnos la compatibilidad las etiquetas `title` y `desc` si fuera necesario.
+
+Ejemplo de svg accesible:
+
 ```html
   <svg role="img">
       <title>Título del svg</title>

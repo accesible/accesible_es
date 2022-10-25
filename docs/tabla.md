@@ -2,8 +2,8 @@
 id: tabla
 title: Tablas
 image: /img/tabla.svg
-description: Documentación para añadir tablas accesibles en tu sitio web
-keywords: [tabla accesible, tablas complejas, wai-aria tabla]
+description: Tabla accesible para la web con ejemplos sencillos
+keywords: [tablas accesibles, tablas complejas, wai-aria en tabla]
 ---
 
 ![img](/img/tabla.svg) 
@@ -16,6 +16,8 @@ keywords: [tabla accesible, tablas complejas, wai-aria tabla]
 - **Evita el scroll horizontal**, es preferible que la tabla crezca verticalmente.
 - Utiliza `thead`, `tbody` y `tfoot` para marcar las distintas secciones.
 - Utiliza atributos `id` y `header` para **asociar celdas de datos con celdas de encabezado**.
+
+Ejemplo de tabla accesible:
 
 ```html 
   <h3>Economía de España</h3>

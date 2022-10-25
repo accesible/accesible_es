@@ -2,8 +2,8 @@
 id: color
 title: Color
 image: /img/color.svg
-description: Documentación para utlizar el color de forma accesible en tu sitio web
-keywords: [color accesible, contraste accesibilidad, gráficas accesibles]
+description: Color accesible para la web con ejemplos sencillos
+keywords: [colores accesibles, contraste accesibilidad, gráficas accesibles]
 ---
 
 ![img](/img/color.svg)
@@ -22,14 +22,19 @@ keywords: [color accesible, contraste accesibilidad, gráficas accesibles]
 - **Nivel AA** - min ratio 4.5:1 texto normal / min ratio 3:1 texto grande
 - **Nivel AAA** - min ratio 7:1 texto normal / min ratio 4.5:1 texto grande
 
-> Nota: Se considera texto grande a partir de 24px o 18px si es negrita
+:::tip Nota
+Se considera texto grande a partir de 24px o 18px si es negrita
+:::
 
+En la sección de recursos tienes [herramientas para medir el contraste](https://accesible.es/recursos#evaluaci%C3%B3n-de-contraste). 🌈
+
+---
 
 Estas normas de contraste también incluyen:
 
 - Placeholders.
 - Estados focus / hover.
-- Degradados, en este caso testeamos el área de contraste más bajo.
+- Degradados, en este caso testamos el área de contraste más bajo.
 
 Quedan exentos:
 - Campos deshabilitados.
@@ -38,7 +43,7 @@ Quedan exentos:
 - Elementos ocultos.
 - Imágenes puramente decorativas o fotografías.
 
-:::tip
+:::tip Nota
 No se recomienda usar negro puro `#000000` sobre blanco puro `#FFFFFF` y viceversa, debido a que aumenta la [**fatiga visual**](https://es.wikipedia.org/wiki/Astenop%C3%ADa)
 ::: 
 

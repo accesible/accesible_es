@@ -2,8 +2,8 @@
 id: contenido
 title: Contenido
 image: /img/contenido.svg
-description: Documentación para incrementar la accesibilidad del contenido web
-keywords: [texto accesible, listas accesibles, abreviaturas y acrónimos]
+description: Contenido accesible para la web con ejemplos sencillos
+keywords: [contenidos accesibles, listas, abreviaturas y acrónimos, captcha, scroll infinito]
 ---
 
 ![img](/img/contenido.svg)
@@ -59,7 +59,7 @@ En el caso de acrónimos, usaremos la etiqueta `<acronym>`.
 <p>¡Usar <acronym>HTML</acronym> es fácil y divertido!</p>
 ```
 
-:::tip
+:::tip Nota
 La abreviatura es una versión corta de una palabra y puede estar en minúsculas.
 
 - etc. = etcétera
@@ -78,7 +78,18 @@ El acrónimo está formado por la primera letra de cada palabra de una oración 
 - Tienen que distinguirse visualmente del resto de texto.
 - Deben destacar cuando reciben el foco de teclado.
 
-:::tip
+### Resaltar foco sobre enlaces
+
+Hay dos formas para resaltar los enlaces debemos usar un contorno (outline) con las siguientes propiedades:
+
+- Al menos 1px de grosor
+- Se una línea sólida
+- Rodear el elemento entero
+
+El contraste del elemento focalizado debe ser al menos de **3:1** contra el fondo que lo contenga.
+
+
+:::tip Nota
 Utiliza enlaces "Saltar al contenido principal" - por ejemplo, añadiendo un enlace en la parte superior de la página que lleve al usuario al comienzo del contenido principal.
 :::
 
@@ -162,7 +173,7 @@ Asegúrate de que las personas **puedan aumentar el espaciado del texto** y segu
   - Contenido que se desplaza en vertical con una anchura equivalente a 320 píxeles CSS.
   - Contenido que se desplaza en horizontal con una altura equivalente a 256 píxeles CSS.
 
-:::tip
+:::tip Nota
 Hay excepciones donde si se permite scroll en dos dimensiones, como en imágenes grandes, mapas o tablas.
 :::
 

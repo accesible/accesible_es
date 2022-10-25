@@ -12,7 +12,6 @@ En internet abunda la información sobre accesibilidad web, pero muchas veces es
 
 Nuestro objetivo es ser una guía útil, recopilamos las pautas más importantes y las resumimos para que sean fáciles de entender. Para casos avanzados o ampliar información siempre recomendamos consultar la [documentación oficial](https://www.w3.org/WAI/WCAG21/quickref/).
 
-
 ## Cómo colaborar
 
 ¡Cualquier colaboración es bienvenida!

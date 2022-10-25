@@ -2,8 +2,8 @@
 id: estructura
 title: Estructura
 image: /img/estructura.svg
-description: Documentación para organizar y marcar de forma semántica nuestro sitio web
-keywords: [marcado semántico, estructura accesible, wai-aria]
+description: Estructura accesible para la web con ejemplos sencillos
+keywords: [estructuras accesibles, marcado semántico, wai-aria]
 ---
 
 ![img](/img/estructura.svg)
@@ -126,7 +126,6 @@ Ejemplos de uso
 
 - Noticias
 - Entrada de un blog
-
 
 ## Section
 

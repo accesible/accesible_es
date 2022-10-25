@@ -2,7 +2,7 @@
 id: wai-aria
 title: WAI-ARIA
 image: /img/wai-aria.svg
-description: Documentación para utilizar los atributos wai-aria en tu sitio web
+description: Wai-aria en tu sitio web con ejemplos sencillos
 keywords: [wai-aria, atributos y roles wai-aria]
 ---
 
@@ -12,21 +12,18 @@ keywords: [wai-aria, atributos y roles wai-aria]
 
 > La recomendación actual es WAI-ARIA 1.1, la [versión 1.2 de WAI-ARIA](https://www.w3.org/TR/wai-aria-1.2/) está aun en fase borrador.
 
-- Usalo en páginas con actualizaciones de contenido dinámicas, o para conocer el estado de controles avanzados (widgets), como por ejemplo sliders, carruseles o modales.
+- Úsalo en páginas con actualizaciones de contenido dinámicas, o para conocer el estado de controles avanzados (widgets), como por ejemplo sliders, carruseles o modales.
 - Nos permite definir el **rol** que tiene un elemento, indicar sus **propiedades** y su **estado** actual.
 - **Podemos cambiar dinámicamente las propiedades o el estado** de un elemento, pero nunca el rol.
 - Reemplaza elementos HTML, ejemplo: `<div role="button">` se comportará como un `<button>`, aunque **siempre se recomienda usar marcado nativo**.
-
-
 
 - **Roles**: Definen lo que es o hace un elemento a los asistentes.
     https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles
     https://www.w3.org/TR/wai-aria-1.1/#role_definitions
 
-    - Roles de estructura: Utilizados para describir las distintas estrucutras de organización de una página. (article, toolbar, row, list, etc)
+    - Roles de estructura: Utilizados para describir las distintas estructuras de organización de una página. (article, toolbar, row, list, etc)
     - Roles abstractos: roles utilizados por el navegador.
     - Roles tipo widget: Definen patrones interactivos comunes, como por ejemplo para un slider, switch, tabs, suelen requerir de código js para modificar su valor.
-
 
 - **Propiedades**: Define las propiedades de los elementos para darles un significado o semántica adicional
     https://www.w3.org/TR/wai-aria-1.1/#state_prop_def
@@ -47,12 +44,11 @@ keywords: [wai-aria, atributos y roles wai-aria]
     - `aria-describedby` Enlaza a un elemento para dar más información, se asocia mediante su `id`.
     - `aria-required` Indica si se debe completar de forma obligatoria un elemento del formulario.
 
-:::tip
+:::tip Nota
 Recuerda que un rol de ARIA anula el rol inherente de un elemento HTML.
 
 Por ejemplo, en `<img role="button">`, la etiqueta img será interpretada como un botón.
 ::: 
-
 
 ## Aria-live
 
@@ -92,11 +88,9 @@ Para ello asignaremos distintos valores numéricos a `tabindex`, donde `tabindex
 <div tabindex="1">...</div>
 ```
 
-
 ## Selectores css
 
 Podemos seleccionar los atributos WAI-ARIA mediante CSS:
-
 
 ```css
 div[role="navigation"] { color: blue; background-color: inherit; }

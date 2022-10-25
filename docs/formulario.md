@@ -2,7 +2,7 @@
 id: formulario
 title: Formularios
 image: /img/formulario.svg
-description: Documentación y consejos para crear formularios accesibles en tu sitio web
+description: Formulario accesible para la web con ejemplos sencillos
 keywords: [formularios accesibles, asociar label, aria-label, fieldset, wai-aria, switch]
 ---
 
@@ -10,7 +10,7 @@ keywords: [formularios accesibles, asociar label, aria-label, fieldset, wai-aria
 
 Los formularios son una forma de interacción con el usuario muy importante, como registros, inicios de sesión, o el envío de cualquier otro tipo de información.
 
-- Todos los campos activos deben ser accesibles mediante **tabulación.**
+- Todos los campos activos deben ser accesibles mediante la **tabulación** del teclado.
 - Añade la información que se relaciona con todo el formulario antes del inicio del formulario.
 - Todo los los controles de formulario (input, textarea, select) deben tener **asociado un label**, o en su defecto, el atributo `aria-label` que especifique claramente el propósito del campo.
 - **Resalta los campos cuando se haga foco** sobre ellos.
@@ -31,22 +31,6 @@ Los formularios son una forma de interacción con el usuario muy importante, com
 - Escriba mensajes de error para ser lo más específico posible, en lugar de usar mensajes genéricos. [[Critero 3.3.1]](https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html)
 - Evita poner enlaces dentro del texto del mensaje de error.
 
-## Foco
-
-Debemos resaltar los elementos cuando se haga foco sobre estos.
-
-```css
-/* Ejemplo, al hacer foco con el teclado mostrará una línea punteada negra. */
-button:focus-visible {
-  outline: 4px dashed black;
-}
-  
-/* Ejemplo, si hacemos foco con el puntero muestra un sombreado. */
-button:focus:not(:focus-visible) {
-  outline: none;
-  box-shadow: 1px 1px 5px rgba(1, 1, 0, .7);
-}
-```
 
 ## Label
 
@@ -60,6 +44,8 @@ Las etiquetas `<label>` deben asociarse de forma implícita o explícita a los d
 
 La etiqueta `<label>` engloba a su control asociado.
 
+Ejemplo de label con asociación implícita:
+
 ```html
 <label>Nombre:
   <input type="text" id="nombre" name="nombre" />
@@ -70,12 +56,14 @@ La etiqueta `<label>` engloba a su control asociado.
 
 Debemos añadir el atributo `for=''` con el id del control asociado a la etiqueta `<label>`.
 
+Ejemplo de label con asociación explícita:
+
 ```html
 <label for="nombre">Nombre:</label>
 <input type="text" id="nombre" name="nombre" />
 ```
 
-:::tip
+:::tip Nota
 Recuerda que el `id` debe ser único en cada página, si el formulario es dinámico y no puedes controlar sus identificadores, utiliza la asociación implícita.
 :::
 
@@ -83,31 +71,32 @@ Recuerda que el `id` debe ser único en cada página, si el formulario es dinám
 
 Podemos reemplazar la etiqueta `<label>` por un atributo `aria-label`.
 
+Ejemplo de label con con atributo `aria-label`:
+
 ```html
 <input type="text" aria-label="Nombre" id="nombre" name="nombre" />
 ```
 
-:::tip
+:::tip Nota
 No es aconsejable prescindir de `label` ya que aporta información una información visual.
 :::
 
-
-#### Asociación con aria-labeledby
+#### Asociación con aria-labelledby
 
 En ciertos casos, como un buscador, podemos prescindir del label y asociar el botón de búsqueda mediante `aria-labeledby`
+
+Ejemplo de label con con atributo `aria-labelledby`:
 
 ```html
 <input type="text" name="buscar" aria-labelledby="boton-buscar">
 <button id="boton-buscar" type="submit">Buscar</button>
 ```
 
-
 #### Diferencias entre aria-label y aria-labelledby
 
 Con `aria-label` estás definiendo un label al elemento.
 
 Con `aria-labelledby` estás definiendo un label mediante una id que enlaza un texto/campo visible fuera del elemento.
-
 
 ## Ayuda / descripción de campos de formulario
 
@@ -127,7 +116,7 @@ Con los placeholder mostraremos un texto dentro de los campos `input` o `textare
 />
 ```
 
-Con css es posible modificar el **estilo del placeholder**:
+Con css es posible modificar el **estilo del placeholder**, debajo te mostramos un ejemplo:
 
 ```css
 ::placeholder {
@@ -139,7 +128,7 @@ Con css es posible modificar el **estilo del placeholder**:
 
 ### Ayuda dentro del label
 
-Otra opción es ofrecer ayuda dentro de nuestro label, por ejemplo el formato requerido:
+Otra opción es ofrecer ayuda dentro de nuestro label, te mostramos un ejemplo el formato requerido:
 
 ```html
 <label for="expire">Fecha de caducidad (MM/AAAA): </label>
@@ -180,6 +169,8 @@ Podemos hacer uso del atributo WAI-ARIA `aria-labelledby` o `aria-describedby`, 
 ## Input y textarea
 
 Los elementos input deben llevar su type correspondiente.
+
+Ejemplo de algunos tipos de inputs:
 
 ```html
 <input type="button" />

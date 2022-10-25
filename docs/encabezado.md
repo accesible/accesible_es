@@ -2,15 +2,15 @@
 id: encabezado
 title: Encabezados
 image: /img/encabezado.svg
-description: Documentación para añadir los encabezados de forma accesible en la web
-keywords: [encabezados accesibles, orden encabezados, jerarquía]
+description: Encabezados accesibles para la web con ejemplos sencillos
+keywords: [encabezado accesible, orden encabezados, jerarquía, marcado semántico]
 ---
 
 ![img](/img/encabezado.svg)
 
 La función de los encabezados es la de organizar los contenidos haciendo una pequeña descripción de la sección que precede.
 
-:::tip
+:::tip Nota
 Define bien los encabezados, **deben ser concisos y únicos**, los usuarios de lectores de pantalla suelen navegar a través de ellos, también los buscadores les dan importancia a la hora de indexar contenidos. [Criterio 2.4.6](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html)
 :::
 
@@ -18,6 +18,7 @@ Define bien los encabezados, **deben ser concisos y únicos**, los usuarios de l
 - No saltes niveles de [jerarquía](#jerarquía). 
 - **No simules encabezados** mediante estilos.
 - Si no podemos usar etiquetas nativas, usaremos el atributo `aria-level`.
+  
 ```html
     /* incorrecto */
     <span class="clase-h1">Encabezado principal</span>
@@ -51,7 +52,6 @@ Todas las páginas deben llevar un encabezado `<h1>` que represente el contenido
 Tener varios encabezados `h1` no es una práctica **recomendada.**
 
 #### ¿Por qué no es una práctica recomendada?
-
 
 En un inicio, el **outline de HTML5** iba a permitir tener varios encabezados `<h1>` para organizar las distintas secciones como por ejemplo `<article>`, `<section>`, `<aside`>, etc.
 

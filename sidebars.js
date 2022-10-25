@@ -29,7 +29,7 @@ const sidebars = {
       type: 'category',
       label: 'Pautas', // sidebar label
       link: {type: 'doc', id: 'pautas'},
-      items: ['color','contenido','encabezado','estructura','formulario','imagen','modal','multimedia','svg','tabla','wai-aria'],
+      items: ['color','contenido','encabezado','estructura','foco','formulario','imagen','modal','multimedia','navegacion','svg','tabla','wai-aria'],
     },
   ],
 

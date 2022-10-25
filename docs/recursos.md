@@ -18,26 +18,34 @@ Existen herramientas de evaluación que nos informan del nivel de accesibilidad 
 - [Lighthouse para Firefox](https://addons.mozilla.org/en-US/firefox/addon/google-lighthouse/)
 - [Listado de herramientas de la w3.org](https://www.w3.org/WAI/ER/tools/)
 
+---
 
 ## Test automatizados de accesibilidad
 
 [AccessLint](https://accesslint.com/), pruebas automatizadas de accesibilidad web para un flujo de desarrollo.
 
-## Utilidades uso del color
+---
+
+## Utilidades para testear el color
 
 Herramientas para crear, probar y mantener relaciones de contraste de color accesibles.
 
 - ### Evaluación de contraste
     - [whocanuse](https://whocanuse.com/), herramienta para evaluar el contraste según las distintas discapacidades visuales.
     - [Colorable](https://colorable.jxnblk.com/), crea combinaciones de colores seguras.
-    - [Contras ratio](https://contrast-ratio.com/), calculadora de contrastes.
+    - [Contrast ratio](https://contrast-ratio.com/), calculadora de contrastes.
+    - [Contrast checker](https://webaim.org/resources/contrastchecker/), verificador de contraste.
+    - **Extensiones para el navegador:**
+      - [WCAG Color contrast para chrome](https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf)
+      - [WCAG Color contrast para firefox](https://addons.mozilla.org/es/firefox/addon/wcag-contrast-checker/)
 - ### Generador de paletas accesibles 
-    - [CONFRERE](https://confrere.com/a11y/test/)
     - [Colorsafe](http://colorsafe.co/)
 
-## Simulador de anomalías daltónicas
+- ### Simulador de anomalías daltónicas
 
-- [Colorblind filter](https://www.toptal.com/designers/colorfilter), aplicación que te permite simular distintas discapacidades visuales en una página.
+  - [Colorblind filter](https://www.toptal.com/designers/colorfilter), aplicación que te permite simular distintas discapacidades visuales en una página.
+
+---
 
 ## Lectores de pantalla
 
@@ -45,6 +53,8 @@ Herramientas para crear, probar y mantener relaciones de contraste de color acce
 - [NVaccess](https://www.nvaccess.org/), lector de código abierto y gratuito para Windows.
 - [Orca](https://wiki.gnome.org/Projects/Orca), lector de código abierto del proyecto GNOME para sistemas Linux.
 - [VoiceOver](https://www.apple.com/accessibility/iphone/vision/), lector de pantalla basado en gestos para dispositivos Apple.
+
+---
 
 ## Accesibilidad en documentos
 
