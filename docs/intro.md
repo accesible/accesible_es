@@ -10,7 +10,7 @@ keywords: [accesibilidad web, pautas accesibilidad, wai-aria]
 
 En internet abunda la información sobre accesibilidad web, pero muchas veces es complicado encontrar una solución determinada o ver ejemplos claros. Por ese motivo hemos creado **accesible.es**, un proyecto que busca facilitar la implementación de las pautas de accesibilidad para el contenido web (<abbr title="Web Content Accessibility Guidelines" lang="en">WCAG</abbr>).
 
-Nuestro objetivo es ser una guía útil, recopilamos las pautas más importantes y las resumimos para que sean fáciles de entender. Para casos avanzados o ampliar información siempre recomendamos consultar la [documentación oficial](https://www.w3.org/WAI/WCAG21/quickref/).
+Nuestro objetivo es ser una guía útil, recopilamos las pautas más importantes y las resumimos para que sean fáciles de implementar. Para casos avanzados o ampliar información siempre recomendamos consultar la [documentación oficial](https://www.w3.org/WAI/WCAG21/quickref/).
 
 ## Cómo colaborar
 

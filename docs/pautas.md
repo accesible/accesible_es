@@ -13,16 +13,21 @@ Las [WCAG 2.1](accesibilidad#wcag-21) se organizan en cuatro principios, percept
 
 Hemos distribuido estas pautas en las siguientes categorías:
 
+
 - [Color](color)
 - [Contenido](contenido)
 - [Encabezados](encabezado)
 - [Estructura](estructura)
+- [Foco](foco)
 - [Formularios](formulario)
 - [Imágenes](imagen)
 - [Modales](modal)
 - [Multimedia](multimedia)
+- [Navegación](navegacion)
 - [SVG](svg)
 - [Tablas](tabla)
 - [WAI-ARIA](wai-aria)
 
 Para cualquier consulta o reporte de información [contáctanos](mailto:accesible.es@gmail.com).
+
+

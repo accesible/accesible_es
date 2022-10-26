@@ -10,7 +10,7 @@ keywords: [accesibilidad web, pautas accesibilidad, wai-aria]
 
 **Accesible.es** es un proyecto libre, que busca facilitar la implementación de las pautas de accesibilidad para el contenido web (<abbr title="Web Content Accessibility Guidelines" lang="en">WCAG</abbr>).
 
-Queremos ser una guía útil, recopilamos información sobre las pautas de accesibilidad más importantes y las resumimos para que sean más fáciles de entender. Para casos avanzados o ampliar información te recomendamos consultar la [documentación oficial](https://www.w3.org/WAI/WCAG21/quickref/).
+Queremos ser una guía útil, recopilamos información sobre las pautas de accesibilidad más importantes y las resumimos para que sean más fáciles de implementar. Para casos avanzados o ampliar información te recomendamos consultar la [documentación oficial](https://www.w3.org/WAI/WCAG21/quickref/).
 
 Actualmente este proyecto **está en fase de desarrollo**, te invitamos a colaborar.
 

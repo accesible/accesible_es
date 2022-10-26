@@ -99,16 +99,33 @@ Utiliza enlaces "Saltar al contenido principal" - por ejemplo, añadiendo un enl
 
 ### Tipos de listas
 
-- Lista desordenada, esta lista se representa como una lista con viñetas de elementos.
+- Lista desordenada, esta lista se representa como una lista con viñetas de elementos
     ```html 
         <ul>
-            <li>Manzanas</li>
-            <li>Peras</li>
-            <li>Limones</li>
+          <li>Manzanas</li>
+          <li>Peras</li>
+          <li>Limones</li>
         </ul>
     ```
-- Lista ordenada (`<ol>`): esta lista se representa como una lista numerada de elementos (cada uno etiquetado con `<li>`).
-- Lista de definiciones (`<dl>`): esta lista se representa como pares de términos (`<dt>`) y descripciones (`<dd>`).
+- Lista ordenada, usamos la etiqueta `<ol>`, esta lista se representa como una lista numerada de elementos
+    ```html 
+        <ol>
+          <li>Encender el ordenador</li>
+          <li>Abrir el navegador</li>
+          <li>Ir a la web de búsqueda</li>
+          <li>Teclear el término a buscar</li>
+        </ol>
+    ```
+
+- Lista de definición, usamos la etiqueta `<dl>`, esta lista se representa como pares de términos `<dt>` y descripciones `<dd>`
+    ```html 
+        <dl>
+          <dt>Café</dt>
+          <dd>Bebida caliente negra</dd>
+          <dt>Leche</dt>
+          <dd>Bebida fría blanca</dd>
+        </dl>
+    ```
 
 ## Scroll infinito
 
@@ -162,6 +179,31 @@ El usuario debe poder hacer zoom de 320px a 1280px. (ampliación del 400%). [Cri
 
 Asegúrate de que las personas **puedan aumentar el espaciado del texto** y seguir leyendo y usando todo .
 
+
+## Ocultar texto
+
+Si queremos ocultar texto de forma accesible, aquí te mostramos un ejemplo de código css:
+
+  ```css
+    .visually-hidden {
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
+    }
+
+    .hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    }
+
+
+
+  ```
 
 ## Responsive
 

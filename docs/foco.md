@@ -2,18 +2,21 @@
 id: foco
 title: Foco
 image: /img/logo.svg
-description: La guía fácil de accesibilidad web
-keywords: [accesibilidad web, pautas accesibilidad, wai-aria]
+description: Foco accesible para la web con ejemplos sencillos
+keywords: [enfocar elementos, foco, resaltar, tabulación]
 ---
 
-> El indicador de foco es para los usuarios de teclado lo que el cursor del mouse es para los usuarios de mouse.
+![img](/img/foco.svg)
 
-Todo elemento operable mediante teclado debe ser resaltado al recibir el foco. [Criterio 2.4.7](https://www.w3.org/TR/WCAG22/#focus-visible)
+
+> El indicador de foco es para los usuarios de teclado lo que el cursor es para los usuarios de ratón.
+
+Todo elemento operable mediante teclado **debe ser resaltado al recibir el foco**. [Criterio 2.4.7](https://www.w3.org/TR/WCAG22/#focus-visible)
 
 Los navegadores proporcionan sus propios indicadores de enfoque para elementos interactivos nativos (botones, enlaces, campos de formulario).
 
 
-Estos indicadores no siempre cumplen con el criterio, así que usaremos `otline: none` para usar unos propios y asegurarnos que cumplimos con unos mínimos.
+**Estos indicadores no siempre cumplen con el criterio**, así que usaremos `otline: none` para usar unos propios y asegurarnos que cumplimos con unos mínimos.
 
 Ejemplo de código css para personalizar el foco:
 
