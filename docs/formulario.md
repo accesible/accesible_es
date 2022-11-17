@@ -2,7 +2,7 @@
 id: formulario
 title: Formularios
 image: /img/formulario.svg
-description: Formulario accesible para la web con ejemplos sencillos
+description: Crear formulario accesible mediante pautas accesibilidad a través de ejemplos
 keywords: [formularios accesibles, asociar label, aria-label, fieldset, wai-aria, switch]
 ---
 

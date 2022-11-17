@@ -80,3 +80,36 @@ Si el enlace tiene texto descriptivo, debemos dejar vacío el atributo `alt`
 </button>
 ```
 
+## Imagen optimizada al dispositivo
+
+Podemos ofrecer distintas imágenes dependiendo la densidad o tamaño de pantalla donde se está visualizando la página.
+
+
+
+```html
+
+  <!-- dependiendo la densidad de px -->
+  <img 
+    alt="Gato observando la calle a través de una ventana."
+    src="gato-lowres.jpg"
+    srcset="
+      gato-high-1.jpg 1.5x,
+      gato-high-2.jpg 2x,
+      gato-high-3.jpg 3x,
+      gato-high-4.jpg 4x,
+      gato-high-5.jpg 100x
+    "
+  >
+
+  <!-- dependiendo la resolución -->
+  <img 
+    alt="Gato observando la calle a través de una ventana."
+    src="gato-lowres.jpg"
+    srcset="
+      gato-s.jpg  300w,
+      gato-m.jpg  600w,
+      gato-l.jpg  1200w,
+      gato-xl.jpg 2000w
+    "
+  >  
+```

@@ -24,6 +24,7 @@ Hemos distribuido estas pautas en las siguientes categorías:
 - [Modales](modal)
 - [Multimedia](multimedia)
 - [Navegación](navegacion)
+- [PDF](pdf)
 - [SVG](svg)
 - [Tablas](tabla)
 - [WAI-ARIA](wai-aria)

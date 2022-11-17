@@ -62,7 +62,7 @@ const config = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
-        },        
+        },
       }),
     ],
   ],
@@ -90,7 +90,7 @@ const config = {
             docId: 'pautas',
             position: 'left',
             label: 'Pautas',
-          },          
+          },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/accesible',
@@ -116,7 +116,7 @@ const config = {
               {
                 label: 'Recursos',
                 to: '/recursos',
-              }                            
+              }
             ],
           },
           {
@@ -129,14 +129,14 @@ const config = {
               {
                 label: 'Linkedin',
                 href: 'https://www.linkedin.com/company/accesible',
-              },              
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/accesible',
               },
             ],
           },
-          
+
         ],
         copyright: `accesible.es - ${new Date().getFullYear()} 🤙 `,
       },

@@ -10,7 +10,7 @@ keywords: [contenidos accesibles, listas, abreviaturas y acrónimos, captcha, sc
 
 
 - Usa **rem/em en vez de px** para definir el [tamaño de fuente](#tamaño-de-fuente).
-- **No bloquees el zoom**, [ver metatags](#metatags).
+- **No bloquees el zoom**, [ver zoom](#zoom).
 - Usa paginación antes que [scroll infinito](#scroll-infinito).
 - Utiliza roles de [WAI-ARIA](wai-aria) 
 - Identifica los [encabezados](encabezado) y asigna las etiquetas adecuadas para estructurar la página.
@@ -175,18 +175,18 @@ La forma correcta de uso de viewport sería la siguiente:
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
   ```
 
-El usuario debe poder hacer zoom de 320px a 1280px. (ampliación del 400%). [Criterio 1.4.10 - Reflujo](https://www.w3.org/WAI/WCAG21/Understanding/reflow#viewing-distance-and-display-resolution)
+El usuario debe poder hacer zoom de 320px a 1280px, o una ampliación del 400%. [Criterio 1.4.10 - Reflujo](https://www.w3.org/WAI/WCAG21/Understanding/reflow#viewing-distance-and-display-resolution)
 
-Asegúrate de que las personas **puedan aumentar el espaciado del texto** y seguir leyendo y usando todo .
+:::tip Nota
+Comprueba que no se superpone u oculta ningún contenido al aumentar el zoom o espaciado de texto.
+:::
 
+## Ocultar contenido
 
-## Ocultar texto
-
-Si queremos ocultar texto de forma accesible, aquí te mostramos un ejemplo de código css:
+Si queremos ocultar contenido de forma accesible, aquí te mostramos un ejemplo de código css:
 
   ```css
-    .visually-hidden {
-      clip: rect(0 0 0 0);
+    .oculto-visualmente {
       clip-path: inset(50%);
       height: 1px;
       overflow: hidden;
@@ -194,14 +194,6 @@ Si queremos ocultar texto de forma accesible, aquí te mostramos un ejemplo de c
       white-space: nowrap;
       width: 1px;
     }
-
-    .hide-text {
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    }
-
-
 
   ```
 

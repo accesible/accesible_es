@@ -2,7 +2,7 @@
 id: estructura
 title: Estructura
 image: /img/estructura.svg
-description: Estructura accesible para la web con ejemplos sencillos
+description: Estructura accesible para la web con ejemplos
 keywords: [estructuras accesibles, marcado semántico, wai-aria]
 ---
 

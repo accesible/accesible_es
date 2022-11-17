@@ -67,3 +67,8 @@ blockquote {
   background: var(--ifm-color-highlight);
   padding: 10px;
 }
+
+footer a:hover {
+  color: white;
+
+}

@@ -2,21 +2,25 @@
 id: recursos
 title: Recursos
 image: /img/logo.svg
-description: La guía fácil de accesibilidad web
-keywords: [recursos accesibilidad web, test accesibilidad, plugins]
+description: Herramientas gratuitas para evaluar, analizar y corregir la accesibilidad web
+keywords: [recursos accesibilidad, test accesibilidad, plugins accesibilidad, herramientas]
 ---
 
-Recopilación de recursos gratuitos para analizar y mejorar la accesibilidad de un sitio web.
+Recopilación de herramientas gratuitas para analizar y mejorar la accesibilidad de un sitio web.
 
 ## Evaluación accesibilidad web
 
-Existen herramientas de evaluación que nos informan del nivel de accesibilidad de nuestro sitio, pero para algunos casos será necesaria una evaluación humana, como por ejemplo, comprobar si los textos alternativos y descripciones son suficientes, o si el marcado semántico es el correcto.
+Herramientas de evaluación que nos informan del nivel de accesibilidad:
 
 - [Wave online](https://wave.webaim.org/), conjunto de herramientas de evaluación de la accesibilidad.
 - [Wave para Firefox](https://addons.mozilla.org/en-US/firefox/addon/wave-accessibility-tool/)
 - [Wave para Chrome](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
 - [Lighthouse para Firefox](https://addons.mozilla.org/en-US/firefox/addon/google-lighthouse/)
 - [Listado de herramientas de la w3.org](https://www.w3.org/WAI/ER/tools/)
+
+:::tip Nota
+Estas herramientas **no analizan al 100% la accesibilidad de un sitio**, por lo que para algunos casos será necesaria una evaluación manual, como por ejemplo, comprobar si los textos alternativos y descripciones son suficientes, o si el marcado semántico es el correcto.
+:::
 
 ---
 
@@ -28,7 +32,7 @@ Existen herramientas de evaluación que nos informan del nivel de accesibilidad 
 
 ## Utilidades para testear el color
 
-Herramientas para crear, probar y mantener relaciones de contraste de color accesibles.
+Herramientas para crear, probar y mantener relaciones de contraste de color accesibles:
 
 - ### Evaluación de contraste
     - [whocanuse](https://whocanuse.com/), herramienta para evaluar el contraste según las distintas discapacidades visuales.
@@ -59,3 +63,5 @@ Herramientas para crear, probar y mantener relaciones de contraste de color acce
 ## Accesibilidad en documentos
 
 [ACE](https://daisy.github.io/ace/), analiza la accesibilidad de los documentos EPUB
+
+[PAVE](https://pave-pdf.org/), analiza y corrige problemas de accesibilidad en documentos PDF

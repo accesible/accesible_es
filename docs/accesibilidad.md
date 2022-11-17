@@ -61,7 +61,7 @@ Su objetivo es que estos recursos sean utilizables para el máximo número de pe
 
 Te proponemos unas pruebas básicas para que apliques en tu sitio:
 
-- Aumenta el zoom del navegador un 200% (CTRL +).
+- Aumenta el zoom del navegador un 400% (CTRL +). [Criterio 1.4.10 - Reflujo](https://www.w3.org/WAI/WCAG21/Understanding/reflow#viewing-distance-and-display-resolution)s
 - Utiliza sólo el teclado para moverte por las distintas las áreas, formularios, buscadores, etc. (Teclas ←↑↓→ TAB, SHIFT+TAB, ESC y ENTER .)
 - Navega usando un lector de pantalla.
 - Navega con los estilos css desactivados.

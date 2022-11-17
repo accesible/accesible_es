@@ -2,7 +2,7 @@
 id: foco
 title: Foco
 image: /img/logo.svg
-description: Foco accesible para la web con ejemplos sencillos
+description: Foco accesible para la web con ejemplos
 keywords: [enfocar elementos, foco, resaltar, tabulación]
 ---
 

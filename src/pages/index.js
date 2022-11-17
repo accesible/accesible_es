@@ -28,7 +28,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Accesibilidad web `}
+      title={`Accesible `}
       description="La guía fácil de accesibilidad web"
       image="/img/logo.svg">
       <HomepageHeader />
