@@ -1,6 +1,7 @@
 ---
 id: recursos
 title: Recursos
+slug: /recursos
 image: /img/logo.svg
 description: Herramientas gratuitas para evaluar, analizar y corregir la accesibilidad web
 keywords: [recursos accesibilidad, test accesibilidad, plugins accesibilidad, herramientas]

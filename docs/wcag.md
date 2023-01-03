@@ -1,6 +1,7 @@
 ---
 id: wcag
 title: WCAG
+slug: /wcag
 image: /img/wcag.svg
 description: WCAG 2.1 Pautas de Accesibilidad para el Contenido Web
 keywords: [wcag, wcag 2.1, resumen wcag]

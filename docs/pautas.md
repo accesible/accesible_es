@@ -1,6 +1,7 @@
 ---
 id: pautas
 title: Pautas de accesibilidad
+slug: /pautas
 image: /img/logo.svg
 description: La guía fácil de accesibilidad web
 keywords: [accesibilidad web, pautas accesibilidad, wai-aria]

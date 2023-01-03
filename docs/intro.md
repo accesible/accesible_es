@@ -1,6 +1,7 @@
 ---
 id: intro
 title: 📜 Intro
+slug: /intro
 image: /img/logo.svg
 description: La guía fácil de accesibilidad web
 keywords: [accesibilidad web, pautas accesibilidad, wai-aria]

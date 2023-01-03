@@ -1,6 +1,7 @@
 ---
 id: manifiesto
 title: 📜 Manifiesto
+slug: /manifiesto
 image: /img/logo.svg
 description: La guía fácil de accesibilidad web
 keywords: [accesibilidad web, pautas accesibilidad, wai-aria]
