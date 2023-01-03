@@ -25,19 +25,6 @@ const config = {
       },
     },
   },
-  plugins: [
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        createRedirects(existingPath) {
-          if (existingPath.includes('/docs')) {
-            return existingPath.replace('/', '/docs');
-          }
-          return undefined; // Return a falsy value: no redirect created
-        },
-      },
-    ],
-  ],
   presets: [
     [
       'classic',

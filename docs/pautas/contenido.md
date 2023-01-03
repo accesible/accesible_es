@@ -1,12 +1,13 @@
 ---
 id: contenido
 title: Contenido
+slug: /contenido
 image: /img/contenido.svg
 description: Contenido accesible para la web con ejemplos sencillos
 keywords: [contenidos accesibles, listas, abreviaturas y acrónimos, captcha, scroll infinito]
 ---
 
-![img](/img/contenido.svg)
+![ ](/img/contenido.svg)
 
 
 - Usa **rem/em en vez de px** para definir el [tamaño de fuente](#tamaño-de-fuente).
@@ -211,6 +212,17 @@ Si queremos ocultar contenido de forma accesible, aquí te mostramos un ejemplo 
 Hay excepciones donde si se permite scroll en dos dimensiones, como en imágenes grandes, mapas o tablas.
 :::
 
+
+### Media queries con css
+
+```css
+  <link href="mobile.css" rel="stylesheet" media="screen and (max-width: 600px)">
+```
+### Media queries con javascript
+
+```js
+  let esMovil = window.matchMedia("only screen and (max-width: 480px)").matches;
+```
 
 ## Control de tiempo 
 

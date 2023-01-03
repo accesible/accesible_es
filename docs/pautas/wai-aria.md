@@ -1,12 +1,13 @@
 ---
 id: wai-aria
 title: WAI-ARIA
+slug: /wai-aria
 image: /img/wai-aria.svg
 description: Wai-aria en tu sitio web con ejemplos sencillos
 keywords: [wai-aria, atributos y roles wai-aria]
 ---
 
-![img](/img/wai-aria.svg)
+![ ](/img/wai-aria.svg)
 
 [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) es una especificación escrita por la W3C pero no tiene relación con HTML, se basa en una serie atributos y roles adicionales que **añaden una semántica adicional**. 
 

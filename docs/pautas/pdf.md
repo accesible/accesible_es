@@ -1,9 +1,10 @@
 ---
 id: pdf
 title: PDF
+slug: /documentos-pdf
 image: /img/pdf.svg
-description: Crear PDF accesible aplicando las pautas de accesibilidad más importantes
-keywords: [pdf accesible, accesibilidad pdf, documentos accesibles]
+description: Crear documentos PDF accesibles
+keywords: [pdf accesible, accesibilidad pdf, documentos pdf accesibles]
 ---
 
 ![ ](/img/pdf.svg) 
@@ -27,7 +28,7 @@ Las pautas para hacer un documento PDF accesible son prácticamente iguales a la
 - El documento debe tener marcadores, si lo hemos **estructurado correctamente las cabeceras**, estos se generarán automáticamente. [WCAG-PDF2](https://www.w3.org/TR/WCAG20-TECHS/pdf.html#PDF2)
 
 :::tip Nota
-Para realizar una comprobación completa de la accesibilidad de un PDF, usa un lector de pantalla como NVDA 
+Para una revisión completa de la accesibilidad de un PDF, utiliza un lector de pantalla como por ejemplo [NVDA](https://www.nvaccess.org/)
 :::
 
 En la sección de [recursos](recursos#accesibilidad-en-documentos) puedes encontrar herramientas para analizar la accesibilidad en documentos.

@@ -1,12 +1,13 @@
 ---
 id: color
 title: Color
+slug: /color
 image: /img/color.svg
 description: Color accesible para la web con ejemplos sencillos
 keywords: [colores accesibles, contraste accesibilidad, gráficas accesibles]
 ---
 
-![img](/img/color.svg)
+![ ](/img/color.svg)
 
 - Consigue el suficiente [contraste](#contraste) entre el contenido y su fondo.
 - Evita colores muy brillantes o demasiado claros.

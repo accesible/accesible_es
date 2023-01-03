@@ -1,12 +1,13 @@
 ---
 id: multimedia
 title: Multimedia
+slug: /multimedia
 image: /img/multimedia.svg
 description: Contenido multimedia accesible para la web con ejemplos sencillos
 keywords: [video y audio accesible, reproductor accesible, wai-aria multimedia]
 ---
 
-![img](/img/multimedia.svg) 
+![ ](/img/multimedia.svg) 
 
 ## Video / Audio
 

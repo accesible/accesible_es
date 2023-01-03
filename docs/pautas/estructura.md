@@ -1,12 +1,13 @@
 ---
 id: estructura
 title: Estructura
+slug: /estructura
 image: /img/estructura.svg
 description: Estructura accesible para la web con ejemplos
 keywords: [estructuras accesibles, marcado semántico, wai-aria]
 ---
 
-![img](/img/estructura.svg)
+![ ](/img/estructura.svg)
 
 Las secciones de nuestro sitio pueden ser organizadas mediante un **marcado semántico**. La semántica literalmente significa usar un **lenguaje “significativo”**, a partir de HTML5 disponemos de una serie de etiquetas de marcado semántico que nos ayudan a describir y jerarquizar el contenido.
 

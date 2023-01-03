@@ -1,12 +1,13 @@
 ---
 id: modal
 title: Modales
+slug: /modal
 image: /img/modal.svg
 description: Modal accesible para la web mediante ejemplos sencillos
 keywords: [modales accesibles, dialog, aria-modal]
 ---
 
-![img](/img/modal.svg)
+![ ](/img/modal.svg)
 
 Los modales siempre han generado problemas de accesibilidad, y su uso se ha generalizado para molestos mensajes de suscripciones, publicidad, etc.
 

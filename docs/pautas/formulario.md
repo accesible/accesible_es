@@ -1,12 +1,13 @@
 ---
 id: formulario
 title: Formularios
+slug: /formulario
 image: /img/formulario.svg
 description: Crear formulario accesible mediante pautas accesibilidad a través de ejemplos
 keywords: [formularios accesibles, asociar label, aria-label, fieldset, wai-aria, switch]
 ---
 
-![img](/img/formulario.svg)
+![ ](/img/formulario.svg)
 
 Los formularios son una forma de interacción con el usuario muy importante, como registros, inicios de sesión, o el envío de cualquier otro tipo de información.
 

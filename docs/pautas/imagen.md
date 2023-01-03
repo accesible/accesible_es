@@ -1,12 +1,13 @@
 ---
 id: imagen
 title: Imágenes
+slug: /imagen
 image: /img/imagen.svg
 description: Imagen accesible para la web con ejemplos sencillos
 keywords: [imágenes accesibles, texto alternativo, wai-aria imagen]
 ---
 
-![img](/img/imagen.svg) 
+![ ](/img/imagen.svg) 
 
 
 - **Todas las imágenes deben tener el atributo alt**, en caso de imágenes decorativas, debe estar vacío.

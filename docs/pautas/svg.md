@@ -1,6 +1,7 @@
 ---
 id: svg
 title: SVG
+slug: /svg
 image: /img/svg.svg
 description: Svg accesible para la web con ejemplos sencillos
 keywords: [svg accesible, svg enlaces, wai-aria svg]

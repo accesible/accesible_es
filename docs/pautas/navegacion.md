@@ -1,12 +1,13 @@
 ---
 id: navegacion
 title: Navegación
+slug: /navegacion
 image: /img/logo.svg
 description: Navegación accesible para la web con ejemplos sencillos
 keywords: [menu, breadcrum, paginación, acordeón]
 ---
 
-![img](/img/navegacion.svg) 
+![ ](/img/navegacion.svg) 
 
 ## Navegación principal
 

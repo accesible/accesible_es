@@ -1,12 +1,13 @@
 ---
 id: foco
 title: Foco
+slug: /foco
 image: /img/logo.svg
 description: Foco accesible para la web con ejemplos
 keywords: [enfocar elementos, foco, resaltar, tabulación]
 ---
 
-![img](/img/foco.svg)
+![ ](/img/foco.svg)
 
 
 > El indicador de foco es para los usuarios de teclado lo que el cursor es para los usuarios de ratón.

@@ -1,12 +1,13 @@
 ---
 id: encabezado
 title: Encabezados
+slug: /encabezado
 image: /img/encabezado.svg
 description: Encabezados accesibles para la web con ejemplos sencillos
 keywords: [encabezado accesible, orden encabezados, jerarquía, marcado semántico]
 ---
 
-![img](/img/encabezado.svg)
+![ ](/img/encabezado.svg)
 
 La función de los encabezados es la de organizar los contenidos haciendo una pequeña descripción de la sección que precede.
 
