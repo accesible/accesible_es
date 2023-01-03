@@ -19,11 +19,6 @@ const config = {
   i18n: {
     defaultLocale: 'es',
     locales: ['es'],
-    localeConfigs: {
-      en: {
-        htmlLang: 'es-ES',
-      },
-    },
   },
   presets: [
     [
