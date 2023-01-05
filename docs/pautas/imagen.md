@@ -7,8 +7,7 @@ description: Imagen accesible para la web con ejemplos sencillos
 keywords: [imágenes accesibles, texto alternativo, wai-aria imagen]
 ---
 
-![ ](/img/imagen.svg) 
-
+<img src="/img/imagen.svg" alt="" />
 
 - **Todas las imágenes deben tener el atributo alt**, en caso de imágenes decorativas, debe estar vacío.
   ```html

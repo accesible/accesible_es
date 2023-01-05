@@ -62,6 +62,10 @@ img.full {
   border-color: var(--ifm-color-primary);
 }
 
+.markdown img {
+  margin-bottom: 40px;
+}
+
 blockquote {
   margin: 3rem 0;
   background: var(--ifm-color-highlight);

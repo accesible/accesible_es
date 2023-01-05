@@ -7,8 +7,7 @@ description: Tabla accesible para la web con ejemplos sencillos
 keywords: [tablas accesibles, tablas complejas, wai-aria en tabla]
 ---
 
-![ ](/img/tabla.svg) 
-
+<img src="/img/tabla.svg" alt="" />
 
 **Usaremos las tablas siempre que mostremos datos tabulares**, es decir en filas y columnas.
 

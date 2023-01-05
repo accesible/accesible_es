@@ -7,7 +7,7 @@ description: Contenido multimedia accesible para la web con ejemplos sencillos
 keywords: [video y audio accesible, reproductor accesible, wai-aria multimedia]
 ---
 
-![ ](/img/multimedia.svg) 
+<img src="/img/multimedia.svg" alt="" />
 
 ## Video / Audio
 

@@ -7,7 +7,7 @@ description: Color accesible para la web con ejemplos sencillos
 keywords: [colores accesibles, contraste accesibilidad, gráficas accesibles]
 ---
 
-![ ](/img/color.svg)
+<img src="/img/color.svg" alt="" />
 
 - Consigue el suficiente [contraste](#contraste) entre el contenido y su fondo.
 - Evita colores muy brillantes o demasiado claros.
@@ -38,6 +38,7 @@ Estas normas de contraste también incluyen:
 - Degradados, en este caso testamos el área de contraste más bajo.
 
 Quedan exentos:
+
 - Campos deshabilitados.
 - Logotipos.
 - Banderas.
@@ -46,7 +47,7 @@ Quedan exentos:
 
 :::tip Nota
 No se recomienda usar negro puro `#000000` sobre blanco puro `#FFFFFF` y viceversa, debido a que aumenta la [**fatiga visual**](https://es.wikipedia.org/wiki/Astenop%C3%ADa)
-::: 
+:::
 
 ## Color en gráficas
 
@@ -56,18 +57,15 @@ No se recomienda usar negro puro `#000000` sobre blanco puro `#FFFFFF` y vicever
 
 Las personas con algún impedimento para distinguir colores, como por ejemplo un usuario daltónico, tendrá dificultades para interpretar una gráfica que diferencia sus datos sólo por el color.
 
-
 <img src="/img/daltonismo-grafica.svg" class="full" />
 
 Como solución, podemos añadir sobre estos colores, etiquetas de texto o texturas que diferencian mejor los datos.
 
 <img src="/img/accesible-grafica.svg" class="full" />
 
-
 Si usamos mapas o gráficos circulares, mejoraremos el contraste añadiendo un contorno o líneas divisorias:
 
 <img src="/img/contraste-color-grafica.svg" class="full" />
-
 
 ## Validación de campos
 
@@ -85,7 +83,4 @@ https://webaim.org/resources/contrastchecker/
 
 https://contrast-checker.glitch.me/
 
-
 En la sección de [recursos](recursos) también puedes encontrar aplicaciones útiles.
-
-

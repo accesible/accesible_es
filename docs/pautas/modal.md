@@ -7,7 +7,7 @@ description: Modal accesible para la web mediante ejemplos sencillos
 keywords: [modales accesibles, dialog, aria-modal]
 ---
 
-![ ](/img/modal.svg)
+<img src="/img/modal.svg" alt="" />
 
 Los modales siempre han generado problemas de accesibilidad, y su uso se ha generalizado para molestos mensajes de suscripciones, publicidad, etc.
 

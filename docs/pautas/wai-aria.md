@@ -7,7 +7,7 @@ description: Wai-aria en tu sitio web con ejemplos sencillos
 keywords: [wai-aria, atributos y roles wai-aria]
 ---
 
-![ ](/img/wai-aria.svg)
+<img src="/img/wai-aria.svg" alt="" />
 
 [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) es una especificación escrita por la W3C pero no tiene relación con HTML, se basa en una serie atributos y roles adicionales que **añaden una semántica adicional**. 
 

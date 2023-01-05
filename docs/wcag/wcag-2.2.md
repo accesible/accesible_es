@@ -10,7 +10,6 @@ Esta versión será compatible con las versiones 2.0 y 2.1, y se seguirá basand
 
 > La versión final de las WCAG 2.2 debería ser publicada a principios de 2023
 
-
 ## Novedades WCAG 2.2
 
 Este es el listado resumido de las **novedades de WCAG 2.2**:
@@ -22,7 +21,7 @@ Este es el listado resumido de las **novedades de WCAG 2.2**:
 - **2.4.13 Enfoque no obstruido (Mejorado) (Mivel AAA)**
   - Cuando un elemento recibe el foco, no debe ocultarse ningún contenido del mismo.
 - **2.5.7 Movimientos de arrastre (Nivel AA)**
-  - En los componentes con funcionalidad de arrastre <span lang="en">(*drag and drop*)</span>, debe ofrecerse alguna alternativa a dicha acción de arrastre.
+  - En los componentes con funcionalidad de arrastre <span lang="en">(_drag and drop_)</span>, debe ofrecerse alguna alternativa a dicha acción de arrastre.
 - **2.5.8 Tamaño del objetivo (Mínimo) (Nivel AA)**
   - Proporcionar una distancia mínima entre los elementos de interacción para facilitar su uso y evitar errores.
 - **3.2.6 Ayuda consistente (Nivel A)**

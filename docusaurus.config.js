@@ -73,6 +73,18 @@ const config = {
             position: 'left',
             label: 'Pautas',
           },
+          {
+            type: 'doc',
+            docId: 'recursos',
+            position: 'left',
+            label: 'Recursos',
+          },
+          {
+            type: 'doc',
+            docId: 'wcag',
+            position: 'left',
+            label: 'WCAG',
+          },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/accesible',

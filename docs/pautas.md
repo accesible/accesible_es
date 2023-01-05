@@ -7,13 +7,11 @@ description: La guía fácil de accesibilidad web
 keywords: [accesibilidad web, pautas accesibilidad, wai-aria]
 ---
 
-![ ](/img/pautas.svg)
-
+<img src="/img/pautas.svg" alt="" />
 
 Las [WCAG 2.1](/wcag-2.1) se organizan en cuatro principios, perceptible, operable, comprensible y robusto, a su vez, cada una de estos principios tiene un conjunto de pautas.
 
-En accesible.es basándonos en estas pautas, hemos organizado las siguientes categorías:
-
+Basándonos en estas pautas, hemos organizado el contenido en las siguientes categorías:
 
 - [Color](color)
 - [Contenido](contenido)
@@ -31,5 +29,3 @@ En accesible.es basándonos en estas pautas, hemos organizado las siguientes cat
 - [WAI-ARIA](wai-aria)
 
 Para cualquier consulta o reporte de información [contáctanos](mailto:accesible.es@gmail.com).
-
-

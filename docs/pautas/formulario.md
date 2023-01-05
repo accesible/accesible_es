@@ -7,7 +7,7 @@ description: Crear formulario accesible mediante pautas accesibilidad a través 
 keywords: [formularios accesibles, asociar label, aria-label, fieldset, wai-aria, switch]
 ---
 
-![ ](/img/formulario.svg)
+<img src="/img/formulario.svg" alt="" />
 
 Los formularios son una forma de interacción con el usuario muy importante, como registros, inicios de sesión, o el envío de cualquier otro tipo de información.
 

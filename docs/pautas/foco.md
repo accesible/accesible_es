@@ -7,8 +7,7 @@ description: Foco accesible para la web con ejemplos
 keywords: [enfocar elementos, foco, resaltar, tabulación]
 ---
 
-![ ](/img/foco.svg)
-
+<img src="/img/foco.svg" alt="" />
 
 > El indicador de foco es para los usuarios de teclado lo que el cursor es para los usuarios de ratón.
 

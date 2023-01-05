@@ -7,7 +7,7 @@ description: La guía fácil de accesibilidad web
 keywords: [accesibilidad web, pautas accesibilidad, wai-aria]
 ---
 
-## Definición
+## ¿Qué es la accesibilidad?
 
 La accesibilidad es el grado o nivel en el que las personas pueden utilizar un objeto, acceder a un lugar o servicio, con independencia de sus barreras geográficas, idiomáticas o de discapacidad.
 
@@ -15,11 +15,11 @@ La accesibilidad es el grado o nivel en el que las personas pueden utilizar un o
 
 ## Tipos de discapacidad
 
-- 👁️ Visual 
+- 👁️ Visual
 
   - ceguera, baja visión, daltonismo
 
-- 👂 Auditiva 
+- 👂 Auditiva
 
   - sordera, sordera-moderada
 
@@ -29,7 +29,7 @@ La accesibilidad es el grado o nivel en el que las personas pueden utilizar un o
   - Distonía muscular
   - Parkinson
 
-- 🧠 Cognitiva 
+- 🧠 Cognitiva
 
   - Dislexia
   - Falta de memoria
@@ -43,18 +43,15 @@ La accesibilidad es el grado o nivel en el que las personas pueden utilizar un o
 Usaremos la definición de accesibilidad pero aplicada a un recurso en internet.
 Su objetivo es que estos recursos sean utilizables para el máximo número de personas, independientemente de sus capacidades.
 
-
 ### ¿Por qué es importante?
 
 - Busca la **igualdad de oportunidades** para todos.
 - Incrementa la cuota de mercado y audiencia de la web debido a que:
-	- **Mejora el SEO**. Los motores de búsqueda identifica mejor los contenidos, y en consecuencia, tendremos mejor posicionamiento
-	- Los contenidos son más fáciles de **adaptar a distintos dispositivos**
+  - **Mejora el SEO**. Los motores de búsqueda identifica mejor los contenidos, y en consecuencia, tendremos mejor posicionamiento
+  - Los contenidos son más fáciles de **adaptar a distintos dispositivos**
 - **Mejora la usabilidad**
 - Refuerza positivamente la imagen de sitio (actitud socialmente responsable y diferenciación con la competencia)
 - En caso de instituciones del estado, **cumplimiento de la legislación** [(enlace a BOE sobre la ley 51/2003)](https://www.boe.es/eli/es/l/2003/12/02/51/con).
-
-
 
 > Los rastreadores de los buscadores, como por ejemplo Google, acceden al contenido de una forma similar a como lo hace un usuario con un lector de pantalla.
 
@@ -98,4 +95,3 @@ Existen 3 niveles para **medir la accesibilidad de un sitio**.
 - **Nivel AAA**: nivel más alto, 78 criterios (+28)
 
 Si tu sitio cumple con alguno de los niveles de accesibilidad, puedes añadir los logotipos en el siguiente enlace, [logotipos conformidad WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/conformance-logos/), recuerda que deben ir acompañados de la informacion de declaración de conformidad (nivel de accesibilidad, fecha de última revisión y contacto)
-

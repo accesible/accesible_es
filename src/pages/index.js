@@ -12,6 +12,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
+        <img src='/img/flash.svg' alt="" />
         <h1 className="hero__title">{siteConfig.title}</h1>
         {/* <h2 className="hero__subtitle">{siteConfig.tagline}</h2> */}
         <div className={styles.buttons}>
@@ -31,7 +32,7 @@ export default function Home() {
   return (
     <Layout
       title={`Accesible `}
-      description="La guía fácil de accesibilidad web"
+      description="La guía rápida de accesibilidad web"
       image="/img/logo.svg">
       <HomepageHeader />
       <main>

@@ -7,8 +7,7 @@ description: Crear documentos PDF accesibles
 keywords: [pdf accesible, accesibilidad pdf, documentos pdf accesibles]
 ---
 
-![ ](/img/pdf.svg) 
-
+<img src="/img/pdf.svg" alt="" />
 
 > El formato pdf fue creado en 1993 por Adobe Systems, se convirtió en un estándar abierto el 1 de julio de 2008 y publicado por la Organización Internacional de Estandarización (ISO) como [ISO 32000-2](https://www.iso.org/standard/75839.html).
 

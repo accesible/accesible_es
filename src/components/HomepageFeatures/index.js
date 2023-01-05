@@ -17,16 +17,16 @@ const FeatureList = [
     Svg: require('@site/static/img/ajuste.svg').default,
     description: (
       <>
-        Nos centramos en las <a href="/pautas">pautas de accesibilidad</a> más importantes y las resumimos para que sean fáciles de entender.
+        Nos centramos en las <a href="/pautas">pautas de accesibilidad</a> más importantes y las resumimos para que no pierdas tiempo con la documentación oficial.
       </>
     ),
   },
   {
-    title: 'Ayúdanos',
+    title: 'Colabora',
     Svg: require('@site/static/img/colabora.svg').default,
     description: (
       <>
-        Este es un proyecto abierto en el que cualquier persona puede <a href="manifiesto#cómo-colaborar">colaborar</a>.
+        Este es un proyecto abierto donde te invitamos a <a href="manifiesto#cómo-colaborar">colaborar</a>.
       </>
     ),
   },

@@ -7,7 +7,7 @@ description: Encabezados accesibles para la web con ejemplos sencillos
 keywords: [encabezado accesible, orden encabezados, jerarquía, marcado semántico]
 ---
 
-![ ](/img/encabezado.svg)
+<img src="/img/encabezado.svg" alt="" />
 
 La función de los encabezados es la de organizar los contenidos haciendo una pequeña descripción de la sección que precede.
 
@@ -16,19 +16,19 @@ Define bien los encabezados, **deben ser concisos y únicos**, los usuarios de l
 :::
 
 - Todas las páginas deben tener un único encabezado `<h1>`
-- No saltes niveles de [jerarquía](#jerarquía). 
+- No saltes niveles de [jerarquía](#jerarquía).
 - **No simules encabezados** mediante estilos.
 - Si no podemos usar etiquetas nativas, usaremos el atributo `aria-level`.
-  
-```html
-    /* incorrecto */
-    <span class="clase-h1">Encabezado principal</span>
-    
-    /* correcto */
-    <span class="clase-h1" aria-level="1">Encabezado principal</span>
 
-    /* óptimo */
-    <h1 class="clase-h1">Encabezado principal</h1>
+```html
+/* incorrecto */
+<span class="clase-h1">Encabezado principal</span>
+
+/* correcto */
+<span class="clase-h1" aria-level="1">Encabezado principal</span>
+
+/* óptimo */
+<h1 class="clase-h1">Encabezado principal</h1>
 ```
 
 ## Jerarquía
@@ -58,7 +58,6 @@ En un inicio, el **outline de HTML5** iba a permitir tener varios encabezados `<
 
 Por desgracia, a día de hoy **ningún navegador adoptó el outline de HTML5** tal como se ideó, y los `H1` que tenga una página son considerados por igual, lo que resultaría confuso para el usuario.
 
-
 ```html
   <section>
       <header>Título sección artículos</header>
@@ -80,21 +79,21 @@ Por desgracia, a día de hoy **ningún navegador adoptó el outline de HTML5** t
 Dentro de una misma sección no se deben saltar niveles de jerarquía, es decir, el encabezado de nivel inferior a un `h1` debería ser un `h2`, y posterior a este, un `h3`, y así consecutivamente hasta el nivel `h6`.
 
 ```html
-  <!-- incorrecto -->
-  <article>
-    <h2>Encabezado nivel 2</h2>
-    ...
-      <h4>Sub-encabezado nivel 4</h4>
-      ...
-  </article>
+<!-- incorrecto -->
+<article>
+  <h2>Encabezado nivel 2</h2>
+  ...
+  <h4>Sub-encabezado nivel 4</h4>
+  ...
+</article>
 
-  <!-- correcto -->
-  <article>
-    <h2>Encabezado nivel 2</h2>
-    ...
-      <h3>Sub-encabezado nivel 3</h3>
-      ...
-  </article>
+<!-- correcto -->
+<article>
+  <h2>Encabezado nivel 2</h2>
+  ...
+  <h3>Sub-encabezado nivel 3</h3>
+  ...
+</article>
 ```
 
 ### Encabezados consecutivos del mismo nivel
@@ -104,16 +103,14 @@ A partir del `<h2>` pueden haber encabezados del mismo nivel consecutivamente, p
 ```html
 <h1>Encabezado principal</h1>
 ...
-  <h2>Sub-encabezado nivel 2</h2>
-  ...
-  <h2>Sub-encabezado nivel 2</h2>
-  ...
-    <h3>Sub-encabezado nivel 3</h3>
-    ...
-    <h3>Sub-encabezado nivel 3</h3>
-    ...
-  <h2>Sub-encabezado nivel 2</h2>
-  ...
-
-
-
+<h2>Sub-encabezado nivel 2</h2>
+...
+<h2>Sub-encabezado nivel 2</h2>
+...
+<h3>Sub-encabezado nivel 3</h3>
+...
+<h3>Sub-encabezado nivel 3</h3>
+...
+<h2>Sub-encabezado nivel 2</h2>
+...
+```

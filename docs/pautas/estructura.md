@@ -7,7 +7,7 @@ description: Estructura accesible para la web con ejemplos
 keywords: [estructuras accesibles, marcado semántico, wai-aria]
 ---
 
-![ ](/img/estructura.svg)
+<img src="/img/estructura.svg" alt="" />
 
 Las secciones de nuestro sitio pueden ser organizadas mediante un **marcado semántico**. La semántica literalmente significa usar un **lenguaje “significativo”**, a partir de HTML5 disponemos de una serie de etiquetas de marcado semántico que nos ayudan a describir y jerarquizar el contenido.
 
@@ -133,7 +133,6 @@ Ejemplos de uso
 Esta etiqueta se usa para definir una sección, es similar a un div, pero con carácter semántico. Los lectores de pantalla lo identifican como una región.
 
 Se utiliza para crear grupos, capítulos o secciones de un contenido.
-
 
 ```html
 <article role="article">

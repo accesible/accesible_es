@@ -13,8 +13,8 @@ Las **WCAG 2.1** se organizan en principios, que a su vez están formados por pa
   - Pauta 1.2 Proporciona alternativas a medios tempodependientes, es decir, vídeo y audio
   - Pauta 1.3 El contenido debe ser adaptable a diferentes formas de presentación
   - Pauta 1.4 Distinguible: El contenido es fácil de ver y escuchar
-  
 - Operable
+
   - Pauta 2.1 Toda la funcionalidad es accesible por teclado
   - Pauta 2.2 Los usuarios tienen tiempo suficiente para leer y usar el contenido
   - Pauta 2.3 El contenido no causa convulsiones
@@ -25,7 +25,6 @@ Las **WCAG 2.1** se organizan en principios, que a su vez están formados por pa
   - Pauta 3.1 El contenido es fácil de leer y de comprender
   - Pauta 3.2 El contenido aparece y se maneja de una forma predecible
   - Pauta 3.3 Ayuda en la introducción de datos para evitar y corregir errores
-  
 - Robusto
   - Pauta 4.1 El contenido es compatible con las herramientas de usuario actuales y futuras
 
@@ -48,7 +47,6 @@ Las **WCAG 2.1** se organizan en principios, que a su vez están formados por pa
 - 2.5.5 Tamaño del área de interacción (AAA)
 - 2.5.6 Mecanismos de entrada concurrentes (AAA)
 - 4.1.3 Mensajes de estado (AA)
-
 
 ## Criterios de conformidad
 
@@ -73,7 +71,7 @@ Las **WCAG 2.1** se organizan en principios, que a su vez están formados por pa
 - 2.4.2 Título de página: Usar títulos de página útiles y claros.
 - 2.4.3 Orden de focos: Usar un orden lógico.
 - 2.4.4 Propósito del enlace (en el contexto): El propósito de cada enlace está claro en su contexto.
-- (Nuevo) 2.5.1 Gestos de puntero: Todas las funciones que utilizan gestos multipunto o basados en trayectoria para su funcionamiento pueden funcionar  con un solo puntero sin un gesto basado en trayectoria, a menos que un gesto multipunto o basado en trayectoria sea esencial.
+- (Nuevo) 2.5.1 Gestos de puntero: Todas las funciones que utilizan gestos multipunto o basados en trayectoria para su funcionamiento pueden funcionar con un solo puntero sin un gesto basado en trayectoria, a menos que un gesto multipunto o basado en trayectoria sea esencial.
 - (Nuevo) 2.5.2 Cancelación de puntero: Para ayudar a evitar la activación inadvertida de los controles, evite la activación no esencial de los controles de bajada (por ejemplo, bajada de ratón) cuando haga clic, puntee o presione prolongadamente la pantalla.
 - (Nuevo) 2.5.3 Etiqueta en el nombre: En el caso de los componentes de la interfaz de usuario con etiquetas que incluyen texto o imágenes de texto, el nombre contiene el texto que se presenta visualmente.
 - (Nuevo) 2.5.4 Activación por movimiento: Las funciones que se activan al mover el dispositivo (por ejemplo, al agitar o desplazar un dispositivo móvil) o al mover el usuario (por ejemplo, al saludar a una cámara) pueden desactivarse y se proporciona una funcionalidad equivalente mediante controles estándar como los botones.

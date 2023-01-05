@@ -6,8 +6,8 @@ image: /img/svg.svg
 description: Svg accesible para la web con ejemplos sencillos
 keywords: [svg accesible, svg enlaces, wai-aria svg]
 ---
-
-![ ](/img/svg.svg) 
+ 
+<img src="/img/svg.svg" alt="" />
 
 - Si usas svg decorativos, añade el atributo `aria-hidden="true"`
 - Si ofreces compatibilidad con internet explorer, añade el atributo `focusable="false"`.

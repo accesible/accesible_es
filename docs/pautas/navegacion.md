@@ -7,7 +7,7 @@ description: Navegación accesible para la web con ejemplos sencillos
 keywords: [menu, breadcrum, paginación, acordeón]
 ---
 
-![ ](/img/navegacion.svg) 
+<img src="/img/navegacion.svg" alt="" />
 
 ## Navegación principal
 
