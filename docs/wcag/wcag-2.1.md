@@ -8,24 +8,25 @@ keywords: [wcag, wcag 2.1, resumen wcag]
 
 Las **WCAG 2.1** se organizan en principios, que a su vez están formados por pautas:
 
-- Perceptible
+- **Perceptible**
   - Pauta 1.1 Proporciona alternativas textuales a contenidos no textuales
   - Pauta 1.2 Proporciona alternativas a medios tempodependientes, es decir, vídeo y audio
   - Pauta 1.3 El contenido debe ser adaptable a diferentes formas de presentación
   - Pauta 1.4 Distinguible: El contenido es fácil de ver y escuchar
-- Operable
 
+- **Operable**
   - Pauta 2.1 Toda la funcionalidad es accesible por teclado
   - Pauta 2.2 Los usuarios tienen tiempo suficiente para leer y usar el contenido
   - Pauta 2.3 El contenido no causa convulsiones
   - Pauta 2.4 Navegable: Los usuarios pueden navegar, encontrar contenido y saber dónde están en todo momento
   - Pauta 2.5 Facilita formas de introducir información [Nueva 2.1]
 
-- Comprensible
+- **Comprensible**
   - Pauta 3.1 El contenido es fácil de leer y de comprender
   - Pauta 3.2 El contenido aparece y se maneja de una forma predecible
   - Pauta 3.3 Ayuda en la introducción de datos para evitar y corregir errores
-- Robusto
+
+- **Robusto**
   - Pauta 4.1 El contenido es compatible con las herramientas de usuario actuales y futuras
 
 ## Novedades

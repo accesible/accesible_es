@@ -55,7 +55,7 @@ Su objetivo es que estos recursos sean utilizables para el máximo número de pe
 
 > Los rastreadores de los buscadores, como por ejemplo Google, acceden al contenido de una forma similar a como lo hace un usuario con un lector de pantalla.
 
-### ¿Mi web es accesible?.
+### ¿Cómo saber si mi web es accesible?.
 
 Te proponemos unas pruebas básicas para que apliques en tu sitio:
 

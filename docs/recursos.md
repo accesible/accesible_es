@@ -7,7 +7,7 @@ description: Herramientas gratuitas para evaluar, analizar y corregir la accesib
 keywords: [recursos accesibilidad, test accesibilidad, plugins accesibilidad, herramientas]
 ---
 
-Recopilación de herramientas gratuitas para analizar y mejorar la accesibilidad de un sitio web.
+Hemos recopilado una serie de herramientas gratuitas para analizar y mejorar la accesibilidad de un sitio web.
 
 ## Evaluación accesibilidad web
 

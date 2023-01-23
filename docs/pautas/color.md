@@ -9,13 +9,16 @@ keywords: [colores accesibles, contraste accesibilidad, gráficas accesibles]
 
 <img src="/img/color.svg" alt="" />
 
+**Lo básico:**
+
 - Consigue el suficiente [contraste](#contraste) entre el contenido y su fondo.
 - Evita colores muy brillantes o demasiado claros.
 - No debemos basarnos sólo en el color para transmitir información.
 
+> Los colores opuestos o complementarios son aquellos colores que se encuentran en una posición oponible dentro del círculo cromático.
+
 ---
 
-> Los colores opuestos o complementarios son aquellos colores que se encuentran en una posición oponible dentro del círculo cromático.
 
 ## Contraste
 
