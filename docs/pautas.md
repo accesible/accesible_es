@@ -23,7 +23,7 @@ Basándonos en estas pautas, hemos organizado el contenido en las siguientes cat
 - [Modales](modal)
 - [Multimedia](multimedia)
 - [Navegación](navegacion)
-- [PDF](pdf)
+- [PDF](archivo-pdf)
 - [SVG](svg)
 - [Tablas](tabla)
 - [WAI-ARIA](wai-aria)

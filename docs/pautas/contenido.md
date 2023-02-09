@@ -22,8 +22,8 @@ keywords: [contenidos accesibles, listas, abreviaturas y acrónimos, captcha, sc
 - Para dar énfasis, utiliza la etiqueta `<strong>`.
 - **Evita el alineado central**, alinea el texto a la izquierda para idiomas de izquierda a derecha ( LTR ) y a la derecha para idiomas de derecha a izquierda ( RTL ).
 - No escribas grandes cantidades de texto en MAYÚSCULAS.
-- Para texto animado, [utiliza prefrencias de movimiento](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)
-- **Utiliza un lenguaje sencillo** y evita las figuras retóricas, los modismos y las metáforas complicadas.
+- Para texto animado, [utiliza preferencias de movimiento](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)
+- **Usa un lenguaje sencillo** y evita las figuras retóricas, los modismos y las metáforas complicadas.
 - **Recomendamos no usar más de 2 tipos de fuente**, cuantas más usemos, más tiempo de adaptación necesitará el usuario (a parte de empeorar el rendimiento de la web).
 
 ### Tamaño de fuente
@@ -41,6 +41,25 @@ keywords: [contenidos accesibles, listas, abreviaturas y acrónimos, captcha, sc
   - Espacio entre párrafos: al menos 2 veces el tamaño de la fuente.
   - Espacio entre letras: al menos 0.12 veces el tamaño de la fuente.
   - Espacio entre palabras: al menos 0.16 veces el tamaño de la fuente.
+
+### Longitud de línea
+
+Con **lineas de texto demasiado largas**, los usuarios tendrán más dificultades para ubicar donde comienza la siguiente línea, por el contrario, con **líneas de texto demasiado cortas**, el usuario tendrá que estar retrocediendo la vista excesivamente.
+
+- La WCAG recomienda un máximo de 80 caracteres por línea. [1.4.8 - AAA](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html)
+
+Si quieres limitar el **número máximo de caracteres por párrafo**, añade este código a tu css:
+
+```css
+  /* aplicamos número máximo de caracteres por párrafo */
+  p { max-width: 75ch }
+```
+
+:::tip Nota
+  Según varios estudios, la longitud de línea óptima para el cuerpo del texto es de 50 a 75 caracteres.
+:::
+
+
 
 ## Abreviaturas / Acrónimos
 
@@ -66,7 +85,8 @@ El acrónimo está formado por la primera letra de cada palabra de una oración 
 
 - I.P.N. = Instituto Politécnico Nacional.
 - OVNI = Objeto volador no identificado
-  :::
+  
+:::
 
 ## Enlaces
 
@@ -127,9 +147,9 @@ Utiliza enlaces "Saltar al contenido principal" - por ejemplo, añadiendo un enl
 
 El scroll infinito es una funcionalidad que de forma automática carga contenido cuando detecta que el usuario se desplaza hacia abajo.
 
-Esto puede ser cómodo, por ejemplo en las publicaciones de redes sociales, pero en otras ocasiones puede ser frustrante si no se ofrecen alternativas. Por ejemplo querer acceder directamente a un elemento que está en un punto determinado en una lista grande, o intentar llegar al contenido del pie y no poder hasta que no hayamos cargado todos los elementos 😠.
+Esto puede ser cómodo, por ejemplo, en las publicaciones de redes sociales, pero en otras ocasiones puede ser frustrante si no se ofrecen alternativas. Por ejemplo, querer acceder directamente a un elemento que está en un punto determinado en una lista grande, o intentar llegar al contenido del pie y no poder hasta que no hayamos cargado todos los elementos 😠.
 
-La paginación nos permite localizar la información de una forma más fácil y rápida, aún así, si nuestro proyecto requiere de scroll infinito, WAI-ARIA nos ofrece una serie de atributos para que el **scroll infinito sea accesible**.
+La paginación nos permite localizar la información de una forma más fácil y rápida, aun así, si nuestro proyecto requiere de scroll infinito, WAI-ARIA nos ofrece una serie de atributos para que el **scroll infinito sea accesible**.
 
 El atributo `role="feed"` permite que los lectores usen el cursor para desplazarse por el listado de elementos dinámicos.
 
@@ -164,7 +184,7 @@ Más información [Feed role - developer.mozilla.org](https://developer.mozilla.
 
 ## Zoom
 
-No debemos bloquer el zoom, no uses los atributos `user-scalable=no` ni `maximum-scale=1.0` de la metatag viewport.
+No debemos bloquear el zoom, no uses los atributos `user-scalable=no` ni `maximum-scale=1.0` de la metatag viewport.
 
 La forma correcta de uso de viewport sería la siguiente:
 
@@ -228,12 +248,12 @@ Excepciones:
 
 - El tiempo de caducidad es superior a 20 horas.
 - La caducidad de sesión es esencial para el funcionamiento.
-- El límite de tiempo es requerido (ejemplo una subasta).
+- El límite de tiempo es requerido (por ejemplo, una subasta).
 
 Más información sobre [tiempo ajustable](https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html).
 
 ## Captcha
 
 - Ofrece al menos dos modalidades de <abbr lang="en" title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA.</abbr>
-- **Proporciona una alternativa**, como por ejemplo contacto directo con atención al cliente para eludir el CAPTCHA.
+- **Proporciona una alternativa**, como por ejemplo, contacto directo con atención al cliente para eludir el CAPTCHA.
 - No uses CAPTCHA para usuarios ya identificados.

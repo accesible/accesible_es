@@ -1,7 +1,7 @@
 ---
 id: pdf
 title: PDF
-slug: /pdf
+slug: /archivo-pdf
 image: /img/pdf.svg
 description: Crear documentos PDF accesibles
 keywords: [pdf accesible, accesibilidad pdf, documentos pdf accesibles]

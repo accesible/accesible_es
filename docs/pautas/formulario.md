@@ -198,6 +198,37 @@ Ejemplo de algunos tipos de inputs:
 <input type="week" />
 ```
 
+### Inputmode
+
+El `inputmode` es un atributo que proporciona una sugerencia a los navegadores para decidir qué teclado por pantalla mostrar cuando un usuario ha seleccionado un campo input/textarea.
+
+```html
+  <input type="text" inputmode="" />
+  <textarea inputmode="" />
+
+  <!-- Numérico -->
+  <input type="text" inputmode="numeric" />
+
+  <!-- Teléfono -->
+  <input type="text" inputmode="tel" />
+
+  <!-- Decimal -->
+  <input type="text" inputmode="decimal" />
+
+  <!-- Email -->
+  <input type="text" inputmode="email" />
+
+  <!-- URL -->
+  <input type="text" inputmode="url" />
+
+  <!-- Buscador -->
+  <input type="text" inputmode="search" />
+
+
+```
+
+
+
 ### Emulando con WAI-ARIA
 
 Tanto los input y los textarea se pueden emular mediante WAI-ARIA, aunque siempre es recomendable usar el elemento nativo.
