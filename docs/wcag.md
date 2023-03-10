@@ -20,3 +20,6 @@ keywords: [wcag, wcag 2.1, resumen wcag]
 La versión más actual de esta documentación es [WCAG 2.1](/wcag-2.1), publicada en 2018 para reemplazar la segunda versión publicada en 2008. [WCAG 2.0 ↗️](https://www.w3.org/TR/WCAG20/)
 
 Se espera que a lo largo de 2023 se publique la versión [WCAG 2.2](/wcag-2.2)
+
+
+La versión [WCAG 3.0](/docs/wcag/wcag-3.0.md) está aún en fase borrador.

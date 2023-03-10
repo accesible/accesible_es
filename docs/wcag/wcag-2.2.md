@@ -3,7 +3,7 @@ id: wcag2.2
 title: WCAG 2.2
 slug: /wcag-2.2
 description: WCAG 2.2 Pautas de Accesibilidad para el Contenido Web
-keywords: [wcag, wcag 2.2, resumen wcag]
+keywords: [wcag, wcag 2.2, wcag español]
 ---
 
 Esta versión será compatible con las versiones 2.0 y 2.1, añadirá nueve requerimientos a los ya existentes y se seguirá basando en los **niveles de conformidad A, AA y AAA**.

@@ -3,7 +3,7 @@ id: wcag2.1
 title: WCAG 2.1
 slug: /wcag-2.1
 description: WCAG 2.1 Pautas de Accesibilidad para el Contenido Web
-keywords: [wcag, wcag 2.1, resumen wcag]
+keywords: [wcag, wcag 2.1, wcag español]
 ---
 
 Las **WCAG 2.1** se organizan en principios, que a su vez están formados por pautas:
