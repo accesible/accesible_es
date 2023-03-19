@@ -22,11 +22,13 @@ En esta nueva versión se está trabajando en un modelo distinto para evaluar lo
 
 ### ¿Una web que tiene nivel AA pasará a tener nivel plata?
 
-No, no existe una correlación entre los niveles de conformidad actuales con los futuro niveles de conformidad de la WCAG 3.0, los sistemas de puntuación serán distintos.
+No, no existe una correlación entre los niveles de conformidad actuales con los futuros niveles de conformidad de la WCAG 3.0, los sistemas de puntuación serán distintos.
 
 <img src="/img/niveles-conformidad-wcag.svg" alt="" />
 
 
 
 En WCAG 3.0 ya no tenemos criterios de éxito, sino **Resultados, Métodos y Pruebas**.
+
+
 

@@ -44,3 +44,13 @@ Ejemplo de tabla accesible:
   </table>
 
 ```
+
+
+## Atributo scope
+
+El atributo `scope` es exclusivo de la etiqueta `th` y nos servirá para indicar que parte de la tabla estamos encabezando. Este atributo puede tener los valores `col`, `row`, `colgroup`, y `rowgroup`.
+
+
+<img src="/img/tabla-colgroup.png" alt="" />
+
+<img src="/img/tabla-scope-row.png" alt="" />
