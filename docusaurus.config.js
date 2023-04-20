@@ -117,10 +117,6 @@ const config = {
             title: 'Red',
             items: [
               {
-                label: 'Twitter',
-                to: 'https://twitter.com/accesible_es',
-              },
-              {
                 label: 'Linkedin',
                 href: 'https://www.linkedin.com/company/accesible',
               },
