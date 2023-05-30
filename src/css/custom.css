@@ -72,7 +72,7 @@ blockquote {
   padding: 10px;
 }
 
-footer a:hover {
+footer .footer__link-item:hover {
   color: white;
 
 }

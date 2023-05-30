@@ -19,7 +19,7 @@ keywords: [wai-aria, atributos y roles wai-aria]
 - Reemplaza elementos HTML, ejemplo: `<div role="button">` se comportará como un `<button>`, aunque **siempre se recomienda usar marcado nativo**.
 
 :::tip Nota
-En la W3C recuerdan que **es mejor añadir ARIA que usar un ARIA erróneo**.
+En la W3C recuerdan que **es mejor no tener ARIA que usar un ARIA erróneo**.
 
 Para los usuarios de lectores de pantalla, ARIA controla la representación de su experiencia no visual, pero un ARIA incorrecto provocará desorientación.
 ::: 
