@@ -12,7 +12,7 @@ keywords: [encabezado accesible, orden encabezados, jerarquía, marcado semánti
 La función de los encabezados es la de organizar los contenidos haciendo una pequeña descripción de la sección que precede.
 
 :::tip Nota
-Define bien los encabezados, **deben ser concisos y únicos**, los usuarios de lectores de pantalla suelen navegar a través de ellos, también los buscadores les dan importancia a la hora de indexar contenidos. [Criterio 2.4.6](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html)
+Define bien los encabezados, **deben ser concisos y únicos**, los usuarios de lectores de pantalla suelen navegar a través de ellos, también los buscadores les dan importancia a la hora de indexar contenidos. [Criterio 2.4.6 ↗️](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html)
 :::
 
 - Todas las páginas deben tener un único encabezado `<h1>`

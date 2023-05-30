@@ -22,7 +22,7 @@ keywords: [contenidos accesibles, listas, abreviaturas y acrónimos, captcha, sc
 - Para dar énfasis, utiliza la etiqueta `<strong>`.
 - **Evita el alineado central**, alinea el texto a la izquierda para idiomas de izquierda a derecha ( LTR ) y a la derecha para idiomas de derecha a izquierda ( RTL ).
 - No escribas grandes cantidades de texto en MAYÚSCULAS.
-- Para texto animado, [utiliza preferencias de movimiento](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)
+- Para texto animado, [utiliza preferencias de movimiento ↗️](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)
 - **Usa un lenguaje sencillo** y evita las figuras retóricas, los modismos y las metáforas complicadas.
 - **Recomendamos no usar más de 2 tipos de fuente**, cuantas más usemos, más tiempo de adaptación necesitará el usuario (a parte de empeorar el rendimiento de la web).
 
@@ -31,7 +31,7 @@ keywords: [contenidos accesibles, listas, abreviaturas y acrónimos, captcha, sc
 - **No uses medidas fijas como px**.
 - El tamaño de fuente debe ser de al menos **12-14 puntos** o su equivalente.
 - Texto en imágenes debe ser al menos de 14 puntos y tener [contraste](color#contraste) suficiente.
-- Permite a los usuarios **incrementar el tamaño** de todos los textos **hasta el 200%**. [Criterio 1.4.4](https://www.w3.org/WAI/WCAG21/Understanding/resize-text)
+- Permite a los usuarios **incrementar el tamaño** de todos los textos **hasta el 200%**. [Criterio 1.4.4 ↗️](https://www.w3.org/WAI/WCAG21/Understanding/resize-text)
 
 ### Espaciado
 
@@ -46,7 +46,7 @@ keywords: [contenidos accesibles, listas, abreviaturas y acrónimos, captcha, sc
 
 Con **lineas de texto demasiado largas**, los usuarios tendrán más dificultades para ubicar donde comienza la siguiente línea, por el contrario, con **líneas de texto demasiado cortas**, el usuario tendrá que estar retrocediendo la vista excesivamente.
 
-- La WCAG recomienda un máximo de 80 caracteres por línea. [1.4.8 - AAA](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html)
+- La WCAG recomienda un máximo de 80 caracteres por línea. [1.4.8 - AAA ↗️](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html)
 
 Si quieres limitar el **número máximo de caracteres por párrafo**, añade este código a tu css:
 
@@ -167,17 +167,17 @@ Si conocemos la posición de los elementos dentro del listado, usaremos el atrib
 </section>
 ```
 
-Más información [Feed role - developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/feed_role)
+Más información [Feed role - developer.mozilla.org ↗️](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/feed_role)
 
 ## Idioma
 
-- Dentro de la etiqueta `<html>`, debemos especificar un idioma para la página mediante el atributo **lang**. [Criterio 3.1.1 - Idioma de la página](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page)
+- Dentro de la etiqueta `<html>`, debemos especificar un idioma para la página mediante el atributo **lang**. [Criterio 3.1.1 - Idioma de la página ↗️](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page)
 
   ```html
   <html lang="en"></html>
   ```
 
-- Añade el atributo **lang** en textos donde quieras que los lectores adapten la pronunciación. [Criterio 3.1.2 - Idiomas en contenido](https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html)
+- Añade el atributo **lang** en textos donde quieras que los lectores adapten la pronunciación. [Criterio 3.1.2 - Idiomas en contenido ↗️](https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html)
   ```html
   ... y gritó, <span lang="fr">c'est fini!</span>
   ```
@@ -192,7 +192,7 @@ La forma correcta de uso de viewport sería la siguiente:
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 ```
 
-El usuario debe poder hacer zoom de 320px a 1280px, o una ampliación del 400%. [Criterio 1.4.10 - Reflujo](https://www.w3.org/WAI/WCAG21/Understanding/reflow#viewing-distance-and-display-resolution)
+El usuario debe poder hacer zoom de 320px a 1280px, o una ampliación del 400%. [Criterio 1.4.10 - Reflujo ↗️](https://www.w3.org/WAI/WCAG21/Understanding/reflow#viewing-distance-and-display-resolution)
 
 :::tip Nota
 Comprueba que no se superpone u oculta ningún contenido al aumentar el zoom o espaciado de texto.
@@ -218,7 +218,7 @@ Si queremos ocultar contenido de forma accesible, aquí te mostramos un ejemplo 
 - Usa mediaqueries
 - Ajusta contenidos usando `grid` o `flexbox`.
 - No uses medidas fijas para contenedores.
-- Permite que las personas puedan usar la vista horizontal o vertical y seguir leyendo y usando todo. [Criterio 1.3.4 - Orientación](https://www.w3.org/WAI/WCAG21/Understanding/orientation.html)
+- Permite que las personas puedan usar la vista horizontal o vertical y seguir leyendo y usando todo. [Criterio 1.3.4 - Orientación ↗️](https://www.w3.org/WAI/WCAG21/Understanding/orientation.html)
 - La información debe ser visible y **no requerir scroll en dos dimensiones** para:
   - Contenido que se desplaza en vertical con una anchura equivalente a 320 píxeles CSS.
   - Contenido que se desplaza en horizontal con una altura equivalente a 256 píxeles CSS.
@@ -250,7 +250,7 @@ Excepciones:
 - La caducidad de sesión es esencial para el funcionamiento.
 - El límite de tiempo es requerido (por ejemplo, una subasta).
 
-Más información sobre [tiempo ajustable](https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html).
+Más información sobre [tiempo ajustable ↗️](https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html).
 
 ## Captcha
 

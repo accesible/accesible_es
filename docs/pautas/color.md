@@ -30,7 +30,7 @@ keywords: [colores accesibles, contraste accesibilidad, gráficas accesibles]
 Se considera texto grande a partir de 24px o 18px si es negrita
 :::
 
-En la sección de recursos tienes [herramientas para medir el contraste](https://accesible.es/recursos#evaluaci%C3%B3n-de-contraste). 🌈
+En la sección de recursos tienes [herramientas para medir el contraste](recursos#evaluaci%C3%B3n-de-contraste). 🌈
 
 ---
 
@@ -49,7 +49,7 @@ Quedan exentos:
 - Imágenes puramente decorativas o fotografías.
 
 :::tip Nota
-No se recomienda usar negro puro `#000000` sobre blanco puro `#FFFFFF` y viceversa, debido a que aumenta la [**fatiga visual**](https://es.wikipedia.org/wiki/Astenop%C3%ADa)
+No se recomienda usar negro puro `#000000` sobre blanco puro `#FFFFFF` y viceversa, debido a que aumenta la [**fatiga visual** ↗️](https://es.wikipedia.org/wiki/Astenop%C3%ADa)
 :::
 
 ## Color en gráficas
@@ -74,7 +74,7 @@ Si usamos mapas o gráficos circulares, mejoraremos el contraste añadiendo un c
 
 Al igual que las gráficas, no debemos usar solo el color para comunicar errores o transmitir información en formularios.
 
-Por ejemplo, si para resaltar campos erróneos usamos un borde rojo, un usuario con [protanopia](https://es.wikipedia.org/wiki/Protanopia) (carencia de sensibilidad al color rojo), no podría identificarlos correctamente.
+Por ejemplo, si para resaltar campos erróneos usamos un borde rojo, un usuario con [protanopia ↗️](https://es.wikipedia.org/wiki/Protanopia) (carencia de sensibilidad al color rojo), no podría identificarlos correctamente.
 
 Mejoramos la accesibilidad del formulario añadiendo iconos y mensajes informativos en los campos erróneos.
 

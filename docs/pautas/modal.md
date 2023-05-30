@@ -56,7 +56,7 @@ dialog::backdrop {
 }
 ```
 
-Más información sobre [dialog - w3.org](https://www.w3.org/TR/wai-aria-practices/examples/dialog-modal/dialog.html).
+Más información sobre [dialog - w3.org ↗️](https://www.w3.org/TR/wai-aria-practices/examples/dialog-modal/dialog.html).
 
 
 

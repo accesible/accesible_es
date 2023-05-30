@@ -11,7 +11,7 @@ keywords: [enfocar elementos, foco, resaltar, tabulación]
 
 > El indicador de foco es para los usuarios de teclado lo que el cursor es para los usuarios de ratón.
 
-Todo elemento operable mediante teclado **debe ser resaltado al recibir el foco**. [Criterio 2.4.7](https://www.w3.org/TR/WCAG22/#focus-visible)
+Todo elemento operable mediante teclado **debe ser resaltado al recibir el foco**. [Criterio 2.4.7 ↗️](https://www.w3.org/TR/WCAG22/#focus-visible)
 
 Los navegadores proporcionan sus propios indicadores de enfoque para elementos interactivos nativos (botones, enlaces, campos de formulario).
 

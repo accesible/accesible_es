@@ -18,7 +18,7 @@ keywords: [imágenes accesibles, texto alternativo, wai-aria imagen]
     <img src="mi-imagen-decorativa.jpg" alt="">
   ```
 - El texto alternativo debe incluir una descripción concisa (**125 caracteres máximo**), intentando transmitir la misma información que la imagen.
-- En caso de **descripciones muy largas usa el atributo [longdesc](https://www.w3.org/TR/WCAG20-TECHS/H45.html).**
+- En caso de **descripciones muy largas usa el atributo [longdesc ↗️](https://www.w3.org/TR/WCAG20-TECHS/H45.html).**
 - Imágenes funcionales deben llevar en el `alt` **la acción que realizan**.
 - Si la imagen tiene información compleja, como gráficos, se debe añadir breve texto identificativo y, a continuación, la descripción detallada de la información debe ser proporcionada en otros lugares (por ejemplo, en una tabla de datos).
 - Si la imagen está suficientemente descrita en el texto - por ejemplo, un simple diagrama que ilustra lo que está escrito en el texto de la página web puede tener breve texto alternativo como "Diagrama de flujo de trabajo como se ha descrito anteriormente.”, o bien dejar vacío el texto alternativo.

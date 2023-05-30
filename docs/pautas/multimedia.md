@@ -34,6 +34,6 @@ keywords: [video y audio accesible, reproductor accesible, wai-aria multimedia]
 
 ### Audio
 
-- **No reproduzcas audio automáticamente**, en caso de necesitar algún indicativo sonoro automático, este no debe sonar más de tres segundos. [Criterio 1.4.2 - Control de audio](https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html)
+- **No reproduzcas audio automáticamente**, en caso de necesitar algún indicativo sonoro automático, este no debe sonar más de tres segundos. [Criterio 1.4.2 - Control de audio ↗️](https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html)
 - Ofrece un control al usuario en el inicio de la página web para que **pueda desactivar los sonidos** que suenan automáticamente.
 - Ofrece una opción que permita apagar el sonido de todo el sitio web.
