@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/ajuste.svg').default,
     description: (
       <>
-        Nos centramos en las <a href="/pautas">pautas de accesibilidad</a> más importantes y las resumimos para que no pierdas tu tiempo con la documentación oficial.
+        Nos centramos en las <a href="/pautas">pautas de accesibilidad</a> más importantes y las resumimos para que no pierdas el tiempo con la documentación oficial.
       </>
     ),
   },
