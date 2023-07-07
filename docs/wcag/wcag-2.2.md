@@ -8,7 +8,7 @@ keywords: [wcag, wcag 2.2, wcag español]
 
 Esta versión será compatible con las versiones 2.0 y 2.1, añadirá nueve requerimientos a los ya existentes y se seguirá basando en los **niveles de conformidad A, AA y AAA**.
 
-> La versión final de las WCAG 2.2 debería ser publicada en primavera de 2023.
+> el último borrador de las WCAG 2.2 es del 17 de mayo de 2023, se espera que sea recomendación en este año 2023.
 
 ## Novedades WCAG 2.2
 

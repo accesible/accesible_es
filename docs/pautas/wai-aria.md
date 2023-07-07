@@ -3,7 +3,7 @@ id: wai-aria
 title: WAI-ARIA
 slug: /wai-aria
 image: /img/wai-aria.svg
-description: Wai-aria en tu sitio web con ejemplos sencillos
+description: Qué es Wai-aria y ejemplos sencillos de uso
 keywords: [wai-aria, atributos y roles wai-aria]
 ---
 
@@ -11,7 +11,7 @@ keywords: [wai-aria, atributos y roles wai-aria]
 
 [WAI-ARIA ↗️](https://www.w3.org/WAI/standards-guidelines/aria/) es una especificación escrita por la [W3C ↗️](https://www.w3.org) pero no tiene relación con HTML, se basa en una serie atributos y roles adicionales que **añaden una semántica adicional**. 
 
-> La recomendación actual es WAI-ARIA 1.1, la [versión 1.2 de WAI-ARIA ↗️](https://www.w3.org/TR/wai-aria-1.2/) está aun en fase borrador.
+> La recomendación actual es la [versión 1.2 de WAI-ARIA ↗️](https://www.w3.org/TR/wai-aria-1.2/) lanzada el 6 de junio de 2023, aquí te contamos las novedades.
 
 - Resulta muy útil usar **WAI-ARIA** en páginas con actualización de contenido dinámico, o para conocer el estado de controles avanzados (widgets), como por ejemplo sliders, carruseles o modales.
 - Nos permite definir el **rol** que tiene un elemento, indicar sus **propiedades** y su **estado** actual.
@@ -30,12 +30,71 @@ Para los usuarios de lectores de pantalla, ARIA controla la representación de s
 
 Los roles de wai-aria, definen lo que es o hace un elemento.
   - **Roles de estructura**: Utilizados para describir las distintas estructuras de organización de una página. (article, toolbar, row, list, etc)
+
+    [W3C WAI-ARIA Roles estructura ↗️](https://www.w3.org/TR/wai-aria-1.2/#document_structure_roles
+    )
+    - application
+    - article
+    - blockquote
+    - caption
+    - cell
+    - columnheader
+    - definition
+    - deletion
+    - directory
+    - document
+    - emphasis
+    - feed
+    - figure
+    - generic
+    - group
+    - heading
+    - img
+    - insertion
+    - list
+    - listitem
+    - math
+    - meter
+    - none
+    - note
+    - paragraph
+    - presentation
+    - row
+    - rowgroup
+    - rowheader
+    - separator (when not focusable)
+    - strong
+    - subscript
+    - superscript
+    - table
+    - term
+    - time
+    - toolbar
+    - tooltip
   - **Roles abstractos**: roles utilizados por el navegador.
   - **Roles tipo widget**: Definen patrones interactivos comunes, como por ejemplo para un slider, switch, tabs, suelen requerir de código js para modificar su valor.
   - Más información sobre los roles WAI-ARIA en:
     - [Mozilla WAI-ARIA Roles ↗️](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles) 
     - [W3C WAI-ARIA Roles ↗️](https://www.w3.org/TR/wai-aria-1.1/#role_definitions)
 
+
+#### Roles de estructura
+
+
+#### Roles Abstractos
+
+- command
+- composite
+- input
+- landmark
+- range
+- roletype
+- section
+- sectionhead
+- select
+- structure
+- widget
+- window
 
 ### Propiedades
 Las propiedades WAI-ARIA se encarga de otorgar a los elementos un significado o semántica adicional

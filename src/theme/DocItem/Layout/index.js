@@ -49,6 +49,8 @@ export default function DocItemLayout({children}) {
             <DocItemContent>{children}</DocItemContent>
             <DocItemFooter />
           </article>
+          <DocItemPaginator />
+          <hr />
           <Giscus
               id="comments"
               repo="accesible/accesible_es"
@@ -63,9 +65,6 @@ export default function DocItemLayout({children}) {
               lang="es"
               loading="lazy"
             />
-          <DocItemPaginator />
-
-
         </div>
       </div>
       {docTOC.desktop && <div className="col col--3">{docTOC.desktop}</div>}

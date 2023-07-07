@@ -9,14 +9,14 @@ keywords: [formularios accesibles, asociar label, aria-label, fieldset, wai-aria
 
 <img src="/img/formulario.svg" alt="" />
 
-Los formularios son una forma de interacción con el usuario muy importante, como registros, inicios de sesión, o el envío de cualquier otro tipo de información.
+Los formularios son una forma de interacción con el usuario muy importante, por ejemplo para registros, contacto o cualquier tipo de envío de información.
 
 - Todos los campos activos deben ser accesibles mediante la **tabulación** del teclado.
 - Añade la información que se relaciona con todo el formulario antes del inicio del formulario.
 - Todo los los controles de formulario (input, textarea, select) deben tener **asociado un label**, o en su defecto, el atributo `aria-label` que especifique claramente el propósito del campo.
 - **Resalta los campos cuando se haga foco** sobre ellos.
 - Los **campos obligatorios** deben quedar claramente marcados (asterisco, texto descriptivo, etc) y tener el atributo `aria-required`. [[Criterio 3.3.2 ↗️]](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html)
-- Ofrece espacio suficiente entre campos y **zonas clickables amplias**. (mínimo 44px por 44px) [[Criterio 2.5.5 - Tamaño objetivo ↗️]](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html)
+- Ofrece espacio suficiente entre campos y **zonas pulsables amplias**. (mínimo 44px por 44px) [[Criterio 2.5.5 - Tamaño objetivo ↗️]](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html)
 - **Ofrece tiempo suficiente para completar** un formulario (caducidad de sesión).
 - Usa **autocompletado** cuando sea posible con el atributo `autocomplete`. [[Criterio 1.3.5 - Identificar propósito de entrada ↗️]](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html)
 - Cuando se envíe los datos de un formulario, **informa al usuario de la acción realizada,** para formularios complejos, es útil mostrar una página de **confirmación de la información facilitada** antes de enviarla.
