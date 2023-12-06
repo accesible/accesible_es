@@ -6,6 +6,9 @@ description: WCAG 2.1 Pautas de Accesibilidad para el Contenido Web
 keywords: [wcag, wcag 2.1, wcag español]
 ---
 
+> Está versión está obsoleta, la recomendación es [WCAG 2.2](wcag-2.2)
+
+
 Las **WCAG 2.1** se organizan en principios, que a su vez están formados por pautas:
 
 - **Perceptible**

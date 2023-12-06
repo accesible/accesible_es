@@ -18,7 +18,16 @@ keywords: [imágenes accesibles, texto alternativo, wai-aria imagen]
     <img src="mi-imagen-decorativa.jpg" alt="">
   ```
 - El texto alternativo debe incluir una descripción concisa (**125 caracteres máximo**), intentando transmitir la misma información que la imagen.
-- En caso de **descripciones muy largas usa el atributo [longdesc ↗️](https://www.w3.org/TR/WCAG20-TECHS/H45.html).**
+- En caso de descripciones muy largas usa ~~longdesc~~ **aria-describedby**
+  -  ```html
+    <img src="pavoreal.jpg"
+    alt="Cabeza de pavo real macho"
+    aria-describedby="description">
+
+    <p id="description">
+      El macho es de color azul metálico en la coronilla, siendo las plumas de la cabeza cortas y rizadas. La cresta en forma de abanico en la cabeza está hecha de plumas con ejes negros desnudos y rematadas con correas de color verde ruborizado. Una franja blanca sobre el ojo y una mancha blanca en forma de media luna debajo del ojo están formadas por piel blanca desnuda. Los lados de la cabeza tienen plumas de color azul verdoso iridiscentes. La espalda tiene plumas escamosas de color verde bronce con marcas negras y cobrizos..
+    </p>
+    ```
 - Imágenes funcionales deben llevar en el `alt` **la acción que realizan**.
 - Si la imagen tiene información compleja, como gráficos, se debe añadir breve texto identificativo y, a continuación, la descripción detallada de la información debe ser proporcionada en otros lugares (por ejemplo, en una tabla de datos).
 - Si la imagen está suficientemente descrita en el texto - por ejemplo, un simple diagrama que ilustra lo que está escrito en el texto de la página web puede tener breve texto alternativo como "Diagrama de flujo de trabajo como se ha descrito anteriormente.”, o bien dejar vacío el texto alternativo.
