@@ -3,7 +3,7 @@ id: wcag
 title: WCAG
 slug: /wcag
 image: /img/wcag.svg
-description: WCAG 2.1 Pautas de Accesibilidad para el Contenido Web
+description: WCAG 2.2 Pautas de Accesibilidad para el Contenido Web
 keywords: [wcag, wcag 2.1, resumen wcag]
 ---
 
@@ -17,9 +17,6 @@ keywords: [wcag, wcag 2.1, resumen wcag]
 > Estas pautas están promovidas por la iniciativa para la accesibilidad web, <abbr title="Web Accessibility Initiative " lang="en">WAI</abbr>, que forma parte del <abbr title="World Wide Web Consortium" lang="en">W3C</abbr> y se han convertido en un **estándar para la accesibilidad digital**.
 
 
-La versión más actual de esta documentación es [WCAG 2.1](/wcag-2.1), publicada en 2018 para reemplazar la segunda versión publicada en 2008. [WCAG 2.0 ↗️](https://www.w3.org/TR/WCAG20/)
-
-Se espera que a lo largo de 2023 se publique la versión [WCAG 2.2](/wcag-2.2)
-
+La versión más actual de esta documentación es [WCAG 2.2](/wcag-2.2), publicada en octubre de 2023 para reemplazar la versión publicada en 2018. [WCAG 2.1 ↗️](https://www.w3.org/TR/WCAG21/)
 
 La versión [WCAG 3.0](/docs/wcag/wcag-3.0.md) está aún en fase borrador.
