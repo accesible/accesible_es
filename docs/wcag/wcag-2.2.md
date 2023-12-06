@@ -6,7 +6,7 @@ description: WCAG 2.2 Pautas de Accesibilidad para el Contenido Web
 keywords: [wcag, wcag 2.2, wcag español]
 ---
 
-Desde el 5 de octubre de 2023, la versión 2.2 se convirtión en recomendación.
+Desde el 5 de octubre de 2023, la versión 2.2 se convirtió en recomendación.
 
 Es compatible con las versiones 2.0 y 2.1, añade nueve requerimientos a los ya existentes y se sigue basando en los **niveles de conformidad A, AA y AAA**.
 
