@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/amor.svg').default,
     description: (
       <>
-        Queremos fomentar el desarrollo de sitios accesibles, consigamos una red más igualitaria.
+        Queremos fomentar el desarrollo de sitios accesibles, consigamos entre todos una red más igualitaria.
       </>
     ),
   },
@@ -17,12 +17,12 @@ const FeatureList = [
     Svg: require('@site/static/img/ajuste.svg').default,
     description: (
       <>
-        Nos centramos en las <a href="/pautas">pautas de accesibilidad</a> más importantes y las resumimos para que no pierdas el tiempo con la documentación oficial.
+        Nos centramos en las <a href="/pautas">pautas de accesibilidad</a> más importantes y las resumimos para que no pierdas demasiado tiempo buscando en la documentación oficial.
       </>
     ),
   },
   {
-    title: 'Colabora',
+    title: 'Ayudanos',
     Svg: require('@site/static/img/colabora.svg').default,
     description: (
       <>

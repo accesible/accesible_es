@@ -19,7 +19,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/pautas">
-            Acceder a las pautas
+            Pautas de accesibilidad
           </Link>
         </div>
       </div>
