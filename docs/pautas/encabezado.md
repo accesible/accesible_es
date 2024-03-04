@@ -15,19 +15,21 @@ La función de los encabezados es la de organizar los contenidos haciendo una pe
 Define bien los encabezados, **deben ser concisos y únicos**, los usuarios de lectores de pantalla suelen navegar a través de ellos, también los buscadores les dan importancia a la hora de indexar contenidos. [Criterio 2.4.6 ↗️](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html)
 :::
 
+**Resumen para crear encabezados accesibles:**
+
 - Todas las páginas deben tener un único encabezado `<h1>`
 - No saltes niveles de [jerarquía](#jerarquía).
 - **No simules encabezados** mediante estilos.
 - Si no podemos usar etiquetas nativas, usaremos el atributo `aria-level`.
 
 ```html
-/* incorrecto */
+/* incorrecto, no hay etiqueta de encabezado ni aria */
 <span class="clase-h1">Encabezado principal</span>
 
-/* correcto */
+/* correcto, usamos aria */
 <span class="clase-h1" aria-level="1">Encabezado principal</span>
 
-/* óptimo */
+/* óptimo, usamos la etiqueta de encabezado */
 <h1 class="clase-h1">Encabezado principal</h1>
 ```
 

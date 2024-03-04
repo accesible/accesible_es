@@ -9,19 +9,19 @@ keywords: [video y audio accesible, reproductor accesible, wai-aria multimedia]
 
 <img src="/img/multimedia.svg" alt="" />
 
-## Video / Audio
+**Resumen para añadir contenido multimedia accesible:**
 
 - **No reproduzcas automáticamente** contenido multimedia (Puedes añadir una opción de reproducción automática, pero debe ser activada bajo demanda del usuario).
 - Todos los elementos multimedia, **deben contar con un título y/o descripción**.
 - En el audio, debe haber suficiente contraste entre la pista principal y el sonido de fondo.
 - Añade una **transcripción y subtítulos**, con esto además mejoramos el SEO.
 - Los subtítulos **deben tener un tamaño, duración y contraste adecuado**, y durar lo suficiente para su lectura.
-- Todo los **controles deben ser accesibles mediante teclado.**
+- Todos los **controles deben ser accesibles mediante teclado.**
 - Evita los parpadeos, no más de tres flashes en un período de 1 segundo.
 - Añade una audiodescripción en varios idiomas usando SMIL.
 - Ofrece una audiodescripción para medios sincronizados emitidos en directo.
   
-### Vídeo 
+## Vídeo 
 
 ```html
 <video class="video" poster="portada-video.jpg" controls title="Mi portada">
@@ -32,7 +32,7 @@ keywords: [video y audio accesible, reproductor accesible, wai-aria multimedia]
 </video>
 ```
 
-### Audio
+## Audio
 
 - **No reproduzcas audio automáticamente**, en caso de necesitar algún indicativo sonoro automático, este no debe sonar más de tres segundos. [Criterio 1.4.2 - Control de audio ↗️](https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html)
 - Ofrece un control al usuario en el inicio de la página web para que **pueda desactivar los sonidos** que suenan automáticamente.

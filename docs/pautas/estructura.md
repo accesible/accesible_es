@@ -121,7 +121,7 @@ Al igual que el encabezado, es un área con la misma información en todas las p
 
 ## Article
 
-La etiqueta article define un **contenido independiente y autónomo**, es decir fuera del contexto de la web seguiría teniendo significado.
+La etiqueta article define un **contenido independiente y autónomo**, es decir, fuera del contexto de la web seguiría teniendo significado.
 
 Ejemplos de uso
 

@@ -9,8 +9,10 @@ keywords: [contenidos accesibles, listas, abreviaturas y acrónimos, captcha, sc
 
 <img src="/img/contenido.svg" alt="" />
 
+**Resumen para crear contenido accesibles:**
+
 - Usa **rem/em en vez de px** para definir el [tamaño de fuente](#tamaño-de-fuente).
-- **No bloquees el zoom**, [ver zoom](#zoom).
+- **No bloquees el [zoom](#zoom)**.
 - Usa paginación antes que [scroll infinito](#scroll-infinito).
 - Utiliza roles de [WAI-ARIA](wai-aria)
 - Identifica los [encabezados](encabezado) y asigna las etiquetas adecuadas para estructurar la página.
@@ -23,8 +25,8 @@ keywords: [contenidos accesibles, listas, abreviaturas y acrónimos, captcha, sc
 - **Evita el alineado central**, alinea el texto a la izquierda para idiomas de izquierda a derecha ( LTR ) y a la derecha para idiomas de derecha a izquierda ( RTL ).
 - No escribas grandes cantidades de texto en MAYÚSCULAS.
 - Para texto animado, [utiliza preferencias de movimiento ↗️](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)
-- **Usa un lenguaje sencillo** y evita las figuras retóricas, los modismos y las metáforas complicadas.
-- **Recomendamos no usar más de 2 tipos de fuente**, cuantas más usemos, más tiempo de adaptación necesitará el usuario (a parte de empeorar el rendimiento de la web).
+- **Usa un lenguaje sencillo** y evita las figuras retóricas, los modismos y las metáforas complicadas. [3.1.3 (AAA) ↗️](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words)
+- **Recomendamos no usar más de 2 tipos de fuente**, cuantas más uses, más tiempo de adaptación necesitará el usuario y peor rendimiento de la web.
 
 ### Tamaño de fuente
 
@@ -44,7 +46,7 @@ keywords: [contenidos accesibles, listas, abreviaturas y acrónimos, captcha, sc
 
 ### Longitud de línea
 
-Con **lineas de texto demasiado largas**, los usuarios tendrán más dificultades para ubicar donde comienza la siguiente línea, por el contrario, con **líneas de texto demasiado cortas**, el usuario tendrá que estar retrocediendo la vista excesivamente.
+Con **líneas de texto demasiado largo**, los usuarios tendrán más dificultades para ubicar donde comienza la siguiente línea, por el contrario, con **líneas de texto demasiado cortas**, el usuario tendrá que estar retrocediendo la vista excesivamente.
 
 - La WCAG recomienda un máximo de 80 caracteres por línea. [1.4.8 - AAA ↗️](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html)
 
@@ -63,7 +65,7 @@ Si quieres limitar el **número máximo de caracteres por párrafo**, añade est
 
 ## Abreviaturas / Acrónimos
 
-Utiliza la etiqueta `<abbr>` para marcar las abreviaturas, si fuera necesario, se puede complementar la información con el atributo `title`.
+Utiliza la etiqueta `<abbr>` para marcar las abreviaturas.
 
 ```html
 <p>medicamentos: clorpromazina, quinidina, antibióticos, <abbr>etc.</abbr></p>
@@ -88,25 +90,27 @@ El acrónimo está formado por la primera letra de cada palabra de una oración 
   
 :::
 
-## Enlaces
+### Añadir información con title
 
-- Describe textualmente el objetivo de los enlaces, evita los "más información", "click aquí".
-- Tienen que distinguirse visualmente del resto de texto.
-- Deben destacar cuando reciben el foco de teclado.
+Si necesitamos completar información, generalmente se ha añadido el atributo `title`. 
 
-### Resaltar foco sobre enlaces
+```html
+<p>Él indicó que se trataba de un <acronym title="Objeto volador no identificado">OVNI</acronym> </p>
+```
 
-Hay dos formas para resaltar los enlaces debemos usar un contorno (outline) con las siguientes propiedades:
 
-- Al menos 1px de grosor
-- Se una línea sólida
-- Rodear el elemento entero
+:::warning Atención
+Alguno lectores de pantalla como JAWS o NVDA en su configuración por defecto no leen el atributo title.
 
-El contraste del elemento focalizado debe ser al menos de **3:1** contra el fondo que lo contenga.
-
-:::tip Nota
-Utiliza enlaces "Saltar al contenido principal" - por ejemplo, añadiendo un enlace en la parte superior de la página que lleve al usuario al comienzo del contenido principal.
+Debido a esto, la solución óptima sería añadir el texto complementario justo después de la abbreviatura o acrónimo.
 :::
+
+
+```html
+/* Solución óptima */ 
+<p>Él indicó que se trataba de un <acronym>OVNI</acronym> (Objeto volador no identificado)</p>
+```
+
 
 ## Listas
 
@@ -145,7 +149,7 @@ Utiliza enlaces "Saltar al contenido principal" - por ejemplo, añadiendo un enl
 
 ## Scroll infinito
 
-El scroll infinito es una funcionalidad que de forma automática carga contenido cuando detecta que el usuario se desplaza hacia abajo.
+El scroll infinito añade automáticamente contenido en la parte inferior cuando detecta que el usuario se desplaza hacia abajo.
 
 Esto puede ser cómodo, por ejemplo, en las publicaciones de redes sociales, pero en otras ocasiones puede ser frustrante si no se ofrecen alternativas. Por ejemplo, querer acceder directamente a un elemento que está en un punto determinado en una lista grande, o intentar llegar al contenido del pie y no poder hasta que no hayamos cargado todos los elementos 😠.
 
@@ -153,11 +157,13 @@ La paginación nos permite localizar la información de una forma más fácil y 
 
 El atributo `role="feed"` permite que los lectores usen el cursor para desplazarse por el listado de elementos dinámicos.
 
-El atributo `aria-busy` indicará si se están renderizando elementos dentro de nuestro área `role="feed"`, durante la carga de elementos su valor debe ser `true` y al terminar esta carga deberá ser `false`.
+El atributo `aria-busy` indicará si se están renderizando elementos dentro de nuestra área `role="feed"`, durante la carga de elementos su valor debe ser `true` y al terminar esta carga deberá ser `false`.
 
 Si conocemos la posición de los elementos dentro del listado, usaremos el atributo `aria-posinset`, y `aria-setsize` para indicar el número total de elementos, si lo desconocemos será seteado a `-1`
 
 ```html
+
+/* Desconocemos el número de elementos que pueden llegar a cargarse */
 <section role="feed" aria-busy="false">
   ...
   <article aria-posinset="427" aria-setsize="-1">...</article>
@@ -165,19 +171,30 @@ Si conocemos la posición de los elementos dentro del listado, usaremos el atrib
   <article aria-posinset="429" aria-setsize="-1">...</article>
   ...
 </section>
+
+/* Conocemos el número de elementos total */
+<section role="feed" aria-busy="false">
+  ...
+  <article aria-posinset="8" aria-setsize="10">...</article>
+  <article aria-posinset="9" aria-setsize="10">...</article>
+  <article aria-posinset="10" aria-setsize="10">...</article>
+  ...
+</section>
+
+
 ```
 
 Más información [Feed role - developer.mozilla.org ↗️](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/feed_role)
 
 ## Idioma
 
-- Dentro de la etiqueta `<html>`, debemos especificar un idioma para la página mediante el atributo **lang**. [Criterio 3.1.1 - Idioma de la página ↗️](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page)
+- Dentro de la etiqueta `<html>`, debemos especificar un idioma para la página mediante el atributo **lang**. [Criterio 3.1.1 - Idioma de la página ↗️](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page)
 
   ```html
   <html lang="en"></html>
   ```
 
-- Añade el atributo **lang** en textos donde quieras que los lectores adapten la pronunciación. [Criterio 3.1.2 - Idiomas en contenido ↗️](https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html)
+- Añade el atributo **lang** en textos donde quieras que los lectores adapten la pronunciación. [Criterio 3.1.2 - Idiomas en contenido ↗️](https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts)
   ```html
   ... y gritó, <span lang="fr">c'est fini!</span>
   ```

@@ -55,12 +55,12 @@ Su objetivo es que estos recursos sean utilizables para el máximo número de pe
 
 > Los rastreadores de los buscadores, como por ejemplo Google, acceden al contenido de una forma similar a como lo hace un usuario con un lector de pantalla.
 
-### ¿Cómo saber si mi web es accesible?.
+### ¿Cómo saber si mi web es accesible?
 
 Te proponemos unas pruebas básicas para que apliques en tu sitio:
 
 - Aumenta el zoom del navegador un 400% (CTRL +). [Criterio 1.4.10 - Reflujo](https://www.w3.org/WAI/WCAG21/Understanding/reflow#viewing-distance-and-display-resolution)s
-- Utiliza sólo el teclado para moverte por las distintas las áreas, formularios, buscadores, etc. (Teclas ←↑↓→ TAB, SHIFT+TAB, ESC y ENTER .)
+- Utiliza solo el teclado para moverte por las distintas las áreas, formularios, buscadores, etc. (Teclas ←↑↓→ TAB, SHIFT+TAB, ESC y ENTER)
 - Navega usando un lector de pantalla.
 - Navega con los estilos css desactivados.
 
@@ -80,7 +80,7 @@ La respuesta depende de varios factores:
 
 ### ¿Quién gestiona esto?
 
-La <abbr title="Web Content Accessibility Guidelines" lang="en">WAI</abbr> o Iniciativa de Accesibilidad Web, fundada en 1997, es el máximo organismo en promover y facilitar el acceso de las personas con discapacidad a la web. Se trata de una actividad desarrollada por el <abbr title="World Wide Web Consortium" lang="en">W3C</abbr>, un consorcio internacional que genera recomendaciones y estándares web.
+La <abbr title="Web Content Accessibility Guidelines" lang="en">WAI</abbr> o Iniciativa de Accesibilidad Web, fundada en 1997, es el máximo organismo en promover y facilitar el acceso de las personas con discapacidad a la web. Se trata de una actividad desarrollada por el <abbr title="World Wide Web Consortium" lang="en">W3C</abbr>, un consorcio internacional que genera recomendaciones y estándares webs.
 
 Este organismo ha diseñado unas directrices para ser estándares técnicos estables y de referencia. Para mayor facilidad, estos estándares se han organizado bajo 4 principios: perceptibles, operables, comprensibles y robustos.
 
@@ -94,4 +94,4 @@ Existen 3 niveles para **medir la accesibilidad de un sitio**.
 - **Nivel AA**: nivel medio, 50 criterios (+20)
 - **Nivel AAA**: nivel más alto, 78 criterios (+28)
 
-Si tu sitio cumple con alguno de los niveles de accesibilidad, puedes añadir los logotipos en el siguiente enlace, [logotipos conformidad WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/conformance-logos/), recuerda que deben ir acompañados de la informacion de declaración de conformidad (nivel de accesibilidad, fecha de última revisión y contacto)
+Si tu sitio cumple con alguno de los niveles de accesibilidad, puedes añadir los logotipos en el siguiente enlace, [logotipos de conformidad WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/conformance-logos/), recuerda que deben ir acompañados de la información de declaración de conformidad (nivel de accesibilidad, fecha de última revisión y contacto)

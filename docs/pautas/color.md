@@ -9,11 +9,11 @@ keywords: [colores accesibles, contraste accesibilidad, gráficas accesibles]
 
 <img src="/img/color.svg" alt="" />
 
-**Lo básico:**
+**Resumen para el uso de colores accesibles:**
 
 - Consigue el suficiente [contraste](#contraste) entre el contenido y su fondo.
 - Evita colores muy brillantes o demasiado claros.
-- No debemos basarnos sólo en el color para transmitir información.
+- **No debemos basarnos solo en el color** para transmitir información.
 
 > Los colores opuestos o complementarios son aquellos colores que se encuentran en una posición oponible dentro del círculo cromático.
 
@@ -58,7 +58,7 @@ No se recomienda usar negro puro `#000000` sobre blanco puro `#FFFFFF` y vicever
 - Incluye **líneas con suficiente contraste** entre colores adyacentes.
 - **Incluye etiquetas y valores** con el gráfico.
 
-Las personas con algún impedimento para distinguir colores, como por ejemplo un usuario daltónico, tendrá dificultades para interpretar una gráfica que diferencia sus datos sólo por el color.
+Las personas con algún impedimento para distinguir colores, como por ejemplo un usuario daltónico, tendrá dificultades para interpretar una gráfica que diferencia sus datos solo por el color.
 
 <img src="/img/daltonismo-grafica.svg" class="full" />
 

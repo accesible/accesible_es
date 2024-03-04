@@ -42,4 +42,4 @@ Gracias a:
 - [docusaurus](https://docusaurus.io/) por su gestor de documentación.
 - [undraw](https://undraw.co/) / [iconfinder](https://iconfinder.com) / [Freepik & Flaticon](https://www.flaticon.es/autores/freepik) por los recursos gráficos.
 - [github](https://github.com) por el alojamiento.
-- todas las personas que de alguna forma han colaborado con el proyecto :heart: .
+- todas las personas que de alguna forma han colaborado con el proyecto. :heart: 

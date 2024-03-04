@@ -22,7 +22,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Ayudanos',
+    title: 'Ayúdanos',
     Svg: require('@site/static/img/colabora.svg').default,
     description: (
       <>

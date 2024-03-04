@@ -9,8 +9,9 @@ keywords: [tablas accesibles, tablas complejas, wai-aria en tabla]
 
 <img src="/img/tabla.svg" alt="" />
 
-**Usaremos las tablas siempre que mostremos datos tabulares**, es decir en filas y columnas.
+**Resumen para añadir tablas accesibles:**
 
+- **Usaremos las tablas siempre que mostremos datos tabulares**, es decir en filas y columnas.
 - Debemos **añadir un título** que defina brevemente el contenido de la tabla mediante la etiqueta `caption`, y describir la tabla mediante `aria-describedby`, la etiqueta `<summary>` está **obsoleta en HTML5**.
 - Se debe utilizar el atributo `scope` dentro de un `th`, para indicar si está encabezando una columna `<th scope='col'>` o una fila `<th scope='row'>`.
 - `scope='colgroup` se usará para encabezados con varias columnas, mientras que `scope='rowgroup'` se usará para en el caso de varias filas.

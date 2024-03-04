@@ -9,17 +9,17 @@ keywords: [wai-aria, atributos y roles wai-aria]
 
 <img src="/img/wai-aria.svg" alt="" />
 
-[WAI-ARIA ↗️](https://www.w3.org/WAI/standards-guidelines/aria/) es una especificación escrita por la [W3C ↗️](https://www.w3.org) pero no tiene relación con HTML, se basa en una serie atributos y roles adicionales que **añaden una semántica adicional**. 
+[WAI-ARIA ↗️](https://www.w3.org/WAI/standards-guidelines/aria/) es una especificación escrita por el [W3C ↗️](https://www.w3.org), pero no tiene relación con HTML, se basa en una serie atributos y roles adicionales que **añaden una semántica adicional**. 
 
 > La recomendación actual es la [versión 1.2 de WAI-ARIA ↗️](https://www.w3.org/TR/wai-aria-1.2/) lanzada el 6 de junio de 2023, aquí te contamos las novedades.
 
 - Resulta muy útil usar **WAI-ARIA** en páginas con actualización de contenido dinámico, o para conocer el estado de controles avanzados (widgets), como por ejemplo sliders, carruseles o modales.
 - Nos permite definir el **rol** que tiene un elemento, indicar sus **propiedades** y su **estado** actual.
 - **Podemos cambiar dinámicamente las propiedades o el estado** de un elemento, pero nunca el rol.
-- Reemplaza elementos HTML, ejemplo: `<div role="button">` se comportará como un `<button>`, aunque **siempre se recomienda usar marcado nativo**.
+- Reemplaza elementos HTML, ejemplo: `<div role="button">` se comportará como un `<button>`, aunque **siempre se recomienda usar el componente nativo**.
 
 :::tip Nota
-En la W3C recuerdan que **es mejor no tener ARIA que usar un ARIA erróneo**.
+En el W3C recuerdan que **es mejor no tener ARIA que usar un ARIA erróneo**.
 
 Para los usuarios de lectores de pantalla, ARIA controla la representación de su experiencia no visual, pero un ARIA incorrecto provocará desorientación.
 ::: 
@@ -29,7 +29,7 @@ Para los usuarios de lectores de pantalla, ARIA controla la representación de s
 ### Roles
 
 Los roles de wai-aria, definen lo que es o hace un elemento.
-  - **Roles de estructura**: Utilizados para describir las distintas estructuras de organización de una página. (article, toolbar, row, list, etc)
+  - **Roles de estructura**: Utilizados para describir las distintas estructuras de organización de una página. (article, toolbar, row, list, etc.)
 
     [W3C WAI-ARIA Roles estructura ↗️](https://www.w3.org/TR/wai-aria-1.2/#document_structure_roles
     )

@@ -13,6 +13,8 @@ Los modales siempre han generado problemas de accesibilidad, y su uso se ha gene
 
 > Usa modales solo en casos donde realmente mejore la usabilidad y no por estética.
 
+**Resumen para modales accesibles:**
+
 - **Evitar abrir modales de forma automática**,
 - Usar la etiqueta nativa [`dialog`](#dialog), de lo contrario, añadir el atributo `role="dialog"`.
 - Podemos añadir `aria-labelledby` y `aria-describedby` para añadir información sobre el modal.

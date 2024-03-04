@@ -9,7 +9,9 @@ keywords: [svg accesible, svg enlaces, wai-aria svg]
  
 <img src="/img/svg.svg" alt="" />
 
-- Si usas svg decorativos, añade el atributo `aria-hidden="true"`
+**Resumen para svg accesibles:**
+
+- Si usas svg decorativos, añade el atributo `aria-hidden="true"`, en caso contrario añade el atributo `role="img"`
 - Si ofreces compatibilidad con internet explorer, añade el atributo `focusable="false"`.
 - Para asegurarnos la compatibilidad las etiquetas `title` y `desc` si fuera necesario.
 
