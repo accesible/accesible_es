@@ -24,10 +24,10 @@ Ejemplo de tabla accesible:
 ```html 
   <h3>Economía de España</h3>
 
-  <p id="ejemplo1" aria-hidden="true">
+  <p id="tabla1-desc" aria-hidden="true">
   En cada fila se muestran los datos de las importaciones (en euros y porcentaje de PIB) por año, desde el 1960 hasta el 2020
   </p>
-  <table aria-describedby="ejemplo1">
+  <table aria-describedby="tabla1-desc">
   <caption>
     España - Importaciones de Mercancías
   </caption>
@@ -45,13 +45,60 @@ Ejemplo de tabla accesible:
   </table>
 
 ```
+## Caption
 
+Debes usar la etiqueta `caption` para describir brevemente el contenido de la tabla. Será el primer elemento que contenga la etiqueta `table`. Si deseas añadir información más detallada, puedes añadir un `aria-describedby` en la etiqueta `table`.
 
-## Atributo scope
+```html
+  <p id="ejemplo1">
+  En cada fila se muestran los datos de las importaciones (en euros y porcentaje de PIB) por año, desde el 1960 hasta el 2020
+  </p>
+  <table aria-describedby="ejemplo1">
+  <caption>
+    España - Importaciones de Mercancías
+  </caption>
+      [...]
+  </table>
+```
+
+## Scope, rowspan y colspan
 
 El atributo `scope` es exclusivo de la etiqueta `th` y nos servirá para indicar que parte de la tabla estamos encabezando. Este atributo puede tener los valores `col`, `row`, `colgroup`, y `rowgroup`.
 
+```html
+<table>
+  <caption>Presupuesto mensual</caption>
+  <thead>
+    <tr>
+      <th scope="col">Mes</th>
+      <th scope="col">Cantidad ganada</th>
+      <th scope="col">Cantidad gastada</th>
+      <th scope="col">Cantidad ahorrada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">enero</th>
+      <td>$2500</td>
+      <td>$1500</td>
+      <td>$500</td>
+    </tr>
+    <tr>
+      <th scope="row">febrero</th>
+      <td>$2700</td>
+      <td>$1500</td>
+      <td>$700</td>
+    </tr>
+  </tbody>
+</table>
 
-<img src="/img/tabla-colgroup.png" alt="" />
+```
+
+Para casos en los que la cabecera se comparta con varias filas o columnas, usaremos el atributo `rowspan` para el caso de filas, y `colspan` para el caso de columnas, donde le daremos el valor numérico de la cantidad de columnas o filas que contenga esa cabecera.
+
+También tendremos que añadir `scope` para cada caso, asignando el valor `rowgroup` para el caso de agrupación por filas, y `colgroup` para agrupación por columnas.
+
+
+<img src="/img/tabla-colgroup.png" alt="Ejemplo de tabla avanzada usando atributos" />
 
 <img src="/img/tabla-scope-row.png" alt="" />
