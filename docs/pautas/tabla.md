@@ -99,6 +99,6 @@ Para casos en los que la cabecera se comparta con varias filas o columnas, usare
 También tendremos que añadir `scope` para cada caso, asignando el valor `rowgroup` para el caso de agrupación por filas, y `colgroup` para agrupación por columnas.
 
 
-<img src="/img/tabla-colgroup.png" alt="Ejemplo de tabla avanzada usando atributos" />
+<img src="/img/tabla-colgroup.png" alt="Ejemplo de tabla avanzada usando atributos scope, colspan y rowspan" />
 
-<img src="/img/tabla-scope-row.png" alt="" />
+<img src="/img/tabla-scope-row.png" alt="Ejemplo de tabla avanzada usando atributo scope" />
