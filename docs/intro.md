@@ -12,7 +12,7 @@ En internet tenemos mucha información sobre accesibilidad web, pero algunas vec
 
 > La **accesibilidad es un derecho** y nos beneficia a todos. ¡Fomentemos una web más justa e igualitaria!
 
-Nuestro objetivo es ser una **guía rápida**; recopilamos las pautas más importantes y las resumimos para que sean fáciles de comprender e implementar. Para casos avanzados o ampliar información siempre recomendamos consultar la 📝[documentación oficial](https://www.w3.org/WAI/WCAG22/quickref/).
+Nuestro objetivo es ser una **guía rápida**; recopilamos las pautas más importantes y las resumimos para que sean fáciles de comprender e implementar. Para casos avanzados o ampliar información siempre recomendamos consultar la <span aria-hidden="true">📝</span> [documentación oficial](https://www.w3.org/WAI/WCAG22/quickref/).
 
 :::tip
 *"El poder de la Web está en su universalidad. El acceso de todos, independientemente de su discapacidad, es un aspecto esencial".*
@@ -42,4 +42,4 @@ Gracias a:
 - [docusaurus](https://docusaurus.io/) por su gestor de documentación.
 - [undraw](https://undraw.co/) / [iconfinder](https://iconfinder.com) / [Freepik & Flaticon](https://www.flaticon.es/autores/freepik) por los recursos gráficos.
 - [github](https://github.com) por el alojamiento.
-- todas las personas que de alguna forma han colaborado con el proyecto. :heart: 
+- todas las personas que de alguna forma han colaborado con el proyecto. <span aria-hidden="true">:heart:</span>

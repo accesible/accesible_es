@@ -11,13 +11,16 @@ keywords: [contenidos accesibles, listas, abreviaturas y acrónimos, captcha, sc
 
 **Resumen para crear contenido accesibles:**
 
+- **Todo el contenido debe presentarse en texto o a través de un texto equivalente** (por ejemplo, texto alternativo para imágenes u otros objetos que no sean de texto).
 - Usa **rem/em en vez de px** para definir el [tamaño de fuente](#tamaño-de-fuente).
 - **No bloquees el [zoom](#zoom)**.
 - Usa paginación antes que [scroll infinito](#scroll-infinito).
 - Utiliza roles de [WAI-ARIA](wai-aria)
 - Identifica los [encabezados](encabezado) y asigna las etiquetas adecuadas para estructurar la página.
-- Usa las etiquetas `ol`, `ul` y `dl` para [listas](#listas)
+- Usa las etiquetas `ol`, `ul` y `dl` para [listas](#listas), cuida la [semántica.](estructura)
+- Todas las funciones deben estar disponibles **usando solo el teclado**.
 - Ningún elemento debería parpadear más de 3 veces por segundo.
+
 
 ## Texto
 

@@ -15,35 +15,35 @@ La accesibilidad es el grado o nivel en el que las personas pueden utilizar un o
 
 ## Tipos de discapacidad
 
-- 👁️ Visual
+- <span aria-hidden="true">👁️</span> Visual
 
   - ceguera, baja visión, daltonismo
 
-- 👂 Auditiva
+- <span aria-hidden="true">👂</span> Auditiva
 
   - sordera, sordera-moderada
 
-- 🤚 Motora
+- <span aria-hidden="true">🤚</span> Motora
 
   - Distrofia muscular
   - Distonía muscular
   - Parkinson
 
-- 🧠 Cognitiva
+- <span aria-hidden="true">🧠</span> Cognitiva
 
   - Dislexia
   - Falta de memoria
   - Déficit de atención
   - Trastornos emocionales
 
-- 👄 Discapacidad del habla.
+- <span aria-hidden="true">👄</span> Discapacidad del habla.
 
 ## Accesibilidad web
 
 Usaremos la definición de accesibilidad pero aplicada a un recurso en internet.
 Su objetivo es que estos recursos sean utilizables para el máximo número de personas, independientemente de sus capacidades.
 
-### ¿Por qué es importante?
+### ¿Por qué es importante la accesibilidad?
 
 - Busca la **igualdad de oportunidades** para todos.
 - Incrementa la cuota de mercado y audiencia de la web debido a que:
@@ -59,10 +59,11 @@ Su objetivo es que estos recursos sean utilizables para el máximo número de pe
 
 Te proponemos unas pruebas básicas para que apliques en tu sitio:
 
-- Aumenta el zoom del navegador un 400% (CTRL +). [Criterio 1.4.10 - Reflujo](https://www.w3.org/WAI/WCAG21/Understanding/reflow#viewing-distance-and-display-resolution)s
-- Utiliza solo el teclado para moverte por las distintas las áreas, formularios, buscadores, etc. (Teclas ←↑↓→ TAB, SHIFT+TAB, ESC y ENTER)
-- Navega usando un lector de pantalla.
-- Navega con los estilos css desactivados.
+- Aumenta el zoom, debería poder **ampliarse un 400% sin aparecer scroll horizontal**, por otro lado, el texto debería poder adaptarse a un tamaño del 200% **sin perder contenido ni funcionalidad**. [Criterio 1.4.10 - Reflujo](https://www.w3.org/WAI/WCAG21/Understanding/reflow#viewing-distance-and-display-resolution)s
+- Además deberías:
+  - poder moverte usando solo el teclado por todas las áreas, formularios, buscadores, etc. (Teclas ←↑↓→ TAB, SHIFT+TAB, ESC y ENTER)
+  - poder navegar usando un lector de pantalla.
+  - poder usar la web con los estilos css desactivados.
 
 Si has tenido alguna dificultad para leer o navegar por tu web aplicando alguno de esos puntos, deberías revisar la accesibilidad.
 
@@ -84,7 +85,7 @@ La <abbr title="Web Content Accessibility Guidelines" lang="en">WAI</abbr> o Ini
 
 Este organismo ha diseñado unas directrices para ser estándares técnicos estables y de referencia. Para mayor facilidad, estos estándares se han organizado bajo 4 principios: perceptibles, operables, comprensibles y robustos.
 
-> La última especificación recomendada por W3C es la <abbr title="Web Content Accessibility Guidelines" lang="en">WCAG</abbr> 2.1 (5 de junio de 2018)
+> La última especificación recomendada por W3C es la <abbr title="Web Content Accessibility Guidelines" lang="en">WCAG</abbr> 2.2 (5 de Octubre de 2023.)
 
 ## Niveles accesibilidad
 
@@ -95,3 +96,9 @@ Existen 3 niveles para **medir la accesibilidad de un sitio**.
 - **Nivel AAA**: nivel más alto, 78 criterios (+28)
 
 Si tu sitio cumple con alguno de los niveles de accesibilidad, puedes añadir los logotipos en el siguiente enlace, [logotipos de conformidad WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/conformance-logos/), recuerda que deben ir acompañados de la información de declaración de conformidad (nivel de accesibilidad, fecha de última revisión y contacto)
+
+
+
+Diseño inclusivo -  El objetivo principal es crear un enfoque unificado del diseño que permita que varios métodos accedan a la misma funcionalidad.
+Accesibilidad web - Las cualidades que hacen que una experiencia web esté disponible para el mayor número posible de usuarios. 
+Usabilidad - Las cualidades que hacen que una experiencia web sea intuitiva y fácil de usar. 

@@ -13,7 +13,7 @@ keywords: [colores accesibles, contraste accesibilidad, gráficas accesibles]
 
 - Consigue el suficiente [contraste](#contraste) entre el contenido y su fondo.
 - Evita colores muy brillantes o demasiado claros.
-- **No debemos basarnos solo en el color** para transmitir información.
+- **No debemos basarnos solo en el color** para transmitir información, o por decirlo de otra manera, toda la información debe ser comprensible sin necesidad de distinguir entre colores.
 
 > Los colores opuestos o complementarios son aquellos colores que se encuentran en una posición oponible dentro del círculo cromático.
 

@@ -137,6 +137,12 @@ Añadiremos el atributo `aria-live`  para indicar que es una "región viva", es 
 
 El valor por defecto de `aria-live` es assertive.
 
+
+## Aria-haspopup
+
+El `aria-haspopup` indica la disponibilidad y el tipo de elemento emergente interactivo que puede activarse mediante el elemento en el que está configurado el atributo. [aria-haspopup ↗️](https://www.w3.org/TR/wai-aria-1.1/#aria-haspopup)
+
+
 ## Tabindex
 
 En HTML sólo pueden recibir el foco elementos de formulario (input, textarea, select, ... ), enlaces y botones. Para situaciones donde queramos **hacer foco en elementos no seleccionables**, usaremos el atributo WAI-ARIA `tabindex`.

@@ -7,15 +7,15 @@ description: Herramientas gratuitas para evaluar, analizar y corregir la accesib
 keywords: [recursos accesibilidad, test accesibilidad, plugins accesibilidad, herramientas]
 ---
 
-Hemos recopilado una serie de herramientas gratuitas para analizar y mejorar la accesibilidad de un sitio web.
+Aquí recopilaremos herramientas gratuitas para analizar y **mejorar la accesibilidad de un sitio web**.
 
 ## Evaluación accesibilidad web
 
 Herramientas de evaluación que nos informan del nivel de accesibilidad:
 
 - [Wave online](https://wave.webaim.org/), conjunto de herramientas de evaluación de la accesibilidad.
-- [Wave para Firefox](https://addons.mozilla.org/en-US/firefox/addon/wave-accessibility-tool/)
-- [Wave para Chrome](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
+  - [Wave para Firefox](https://addons.mozilla.org/en-US/firefox/addon/wave-accessibility-tool/)
+  - [Wave para Chrome](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
 - [Lighthouse para Firefox](https://addons.mozilla.org/en-US/firefox/addon/google-lighthouse/)
 - [Listado de herramientas de la w3.org](https://www.w3.org/WAI/ER/tools/)
 
@@ -54,10 +54,29 @@ Herramientas para crear, probar y mantener relaciones de contraste de color acce
 
 ## Lectores de pantalla
 
-- [Jaws](https://www.freedomscientific.com/Products/software/JAWS/), uno de los lectores de pantalla más populares para Windows.
-- [NVaccess](https://www.nvaccess.org/), lector de código abierto y gratuito para Windows.
-- [Orca](https://wiki.gnome.org/Projects/Orca), lector de código abierto del proyecto GNOME para sistemas Linux.
-- [VoiceOver](https://www.apple.com/accessibility/iphone/vision/), lector de pantalla basado en gestos para dispositivos Apple.
+- **Jaws**, uno de los lectores de pantalla más populares para Windows.
+  - [Web de Jaws](https://www.freedomscientific.com/Products/software/JAWS/)
+  - [Guia de comandos Jaws (inglés)](https://accesible.es/pdf/jaws-guide.pdf)
+- **NVDA**, lector de pantalla de código abierto y gratuito para Windows.
+  - [Web de NVDA](https://www.nvaccess.org/)
+  - [Guia de comandos NVDA (inglés)](https://accesible.es/pdf/nvda-guide.pdf)
+- **Narrator**, lector de pantalla integrado en Windows 10.
+  - [Web de Narrator](https://support.microsoft.com/es-es/windows/gu%C3%ADa-completa-del-narrador-e4397a0d-ef4f-b386-d8ae-c172f109bdb1)
+  - [Guia de comandos Narrator (inglés)](https://accesible.es/pdf/narrator-guide.pdf)
+- **Talkback**, lector de pantalla para dispositivos Android.
+  - [Web de TalkBack](https://support.google.com/accessibility/android/answer/6283677?hl=es)
+  - [Guia de comandos Talkback (inglés)](https://accesible.es/pdf/talkback-guide.pdf)
+- **VoiceOver**, lector de pantalla basado en gestos para dispositivos Apple.
+  - [Web de VoiceOver](https://www.apple.com/accessibility/iphone/vision/)
+  - [Guia de comandos VoiceOver (inglés)](https://accesible.es/pdf/voiceover-ios-guide.pdf)
+  - [Guia de gestos VoiceOver (inglés)](https://accesible.es/pdf/voiceover-ios-images-guide.pdf)
+- **ChromeVox**, extensión de Chrome para leer el contenido de la web.
+  - [Web de ChromeVox](https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn)
+- **Orca**, lector de código abierto del proyecto GNOME para sistemas Linux.
+  - [Web de Orca](https://wiki.gnome.org/Projects/Orca)
+- **NVaccess**, lector de código abierto y gratuito para Windows.
+  - [Web de NVaccess](https://www.nvaccess.org/)
+
 
 ---
 

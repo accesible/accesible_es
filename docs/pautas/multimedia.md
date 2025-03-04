@@ -12,7 +12,7 @@ keywords: [video y audio accesible, reproductor accesible, wai-aria multimedia]
 **Resumen para añadir contenido multimedia accesible:**
 
 - **No reproduzcas automáticamente** contenido multimedia (Puedes añadir una opción de reproducción automática, pero debe ser activada bajo demanda del usuario).
-- Todos los elementos multimedia, **deben contar con un título y/o descripción**.
+- Todos los elementos multimedia, **deben contar subtítulos y con un título y/o descripción**.
 - En el audio, debe haber suficiente contraste entre la pista principal y el sonido de fondo.
 - Añade una **transcripción y subtítulos**, con esto además mejoramos el SEO.
 - Los subtítulos **deben tener un tamaño, duración y contraste adecuado**, y durar lo suficiente para su lectura.

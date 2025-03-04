@@ -11,9 +11,10 @@ keywords: [tablas accesibles, tablas complejas, wai-aria en tabla]
 
 **Resumen para añadir tablas accesibles:**
 
-- **Usaremos las tablas siempre que mostremos datos tabulares**, es decir en filas y columnas.
-- Debemos **añadir un título** que defina brevemente el contenido de la tabla mediante la etiqueta `caption`, y describir la tabla mediante `aria-describedby`, la etiqueta `<summary>` está **obsoleta en HTML5**.
-- Se debe utilizar el atributo `scope` dentro de un `th`, para indicar si está encabezando una columna `<th scope='col'>` o una fila `<th scope='row'>`.
+- **Usaremos la etiqueta `<table>` siempre que mostremos datos tabulares**, es decir en filas y columnas.
+- Debemos **añadir un título** que defina brevemente el contenido de la tabla mediante la etiqueta `caption`, o las alternativas como `aria-label` o `aria-labelledby`.
+- Describir la tabla mediante `aria-describedby`, la etiqueta `<summary>` está **obsoleta en HTML5**.
+- Se debe añadir la etiqueta encabezado `th` con `scope` para indicar si está encabezando una columna `<th scope='col'>` o una fila `<th scope='row'>`.
 - `scope='colgroup` se usará para encabezados con varias columnas, mientras que `scope='rowgroup'` se usará para en el caso de varias filas.
 - **Evita el scroll horizontal**, es preferible que la tabla crezca verticalmente.
 - Utiliza `thead`, `tbody` y `tfoot` para marcar las distintas secciones.
@@ -45,9 +46,21 @@ Ejemplo de tabla accesible:
   </table>
 
 ```
-## Caption
 
-Debes usar la etiqueta `caption` para describir brevemente el contenido de la tabla. Será el primer elemento que contenga la etiqueta `table`. Si deseas añadir información más detallada, puedes añadir un `aria-describedby` en la etiqueta `table`.
+## Titulando la tabla
+
+### `caption`
+
+Debes usar la etiqueta `caption` para titular brevemente el contenido de la tabla. Será el primer elemento que contenga la etiqueta `table`.
+
+```html
+<table>
+      <caption>Título de la tabla</caption>
+```
+
+### `aria-describedby`
+
+Para informaciónes más detallada, puedes utilizar un `aria-describedby` en la etiqueta `table`.
 
 ```html
   <p id="ejemplo1">
@@ -60,6 +73,14 @@ Debes usar la etiqueta `caption` para describir brevemente el contenido de la ta
       [...]
   </table>
 ```
+
+### `aria-labelledby`
+
+```html
+<h3 id="tableCaption">Título del contenido de la tabla</h3>
+<table aria-labelledby="tableCaption">
+```
+
 
 ## Scope, rowspan y colspan
 
