@@ -35,6 +35,11 @@ const sidebars = {
       label: 'Recursos', // sidebar label
     },
     {
+      type: 'doc',
+      id: 'ley', // document ID
+      label: 'Leyes', // sidebar label
+    },
+    {
       type: "category",
       label: "WCAG", // sidebar label
       link: { type: "doc", id: "wcag" },
