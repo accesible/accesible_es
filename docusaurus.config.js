@@ -128,7 +128,7 @@ const config = {
           },
 
         ],
-        copyright: `accesible.es - ${new Date().getFullYear()} 🤙 - creado por <a target="_blank" class="footer__link-item" href="https://twitter.com/edusl">@edusl</a>`,
+        copyright: `accesible.es - ${new Date().getFullYear()} 🤙 - la guia rápida de accesibilidad web`,
       },
       prism: {
         theme: lightCodeTheme,
