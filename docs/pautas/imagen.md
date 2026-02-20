@@ -12,17 +12,17 @@ keywords: [imágenes accesibles, texto alternativo, wai-aria imagen]
 - **Todas las imágenes deben tener el atributo alt**, en caso de imágenes decorativas, debe estar vacío.
   ```html
     <!-- imagen no decorativa -->
-    <img src="mi-imagen.jpg" alt="Descripción">
+    <img src="mi-imagen.jpg" alt="Descripción" />
 
     <!-- imagen decorativa -->
-    <img src="mi-imagen-decorativa.jpg" alt="">
+    <img src="mi-imagen-decorativa.jpg" alt="" />
   ```
 - El texto alternativo debe incluir una descripción concisa (**125 caracteres máximo**), intentando transmitir la misma información que la imagen.
 - En caso de descripciones muy largas, usa ~~longdesc~~ **aria-describedby**
   -  ```html
     <img src="pavoreal.jpg"
     alt="Cabeza de pavo real macho"
-    aria-describedby="description">
+    aria-describedby="description" />
 
     <p id="description">
       El macho es de color azul metálico en la coronilla, siendo las plumas de la cabeza cortas y rizadas. La cresta en forma de abanico en la cabeza está hecha de plumas con ejes negros desnudos y rematadas con correas de color verde ruborizado. Una franja blanca sobre el ojo y una mancha blanca en forma de media luna debajo del ojo están formadas por piel blanca desnuda. Los lados de la cabeza tienen plumas de color azul verdoso iridiscentes. La espalda tiene plumas escamosas de color verde bronce con marcas negras y cobrizos..
@@ -47,7 +47,7 @@ Si el enlace no tiene texto descriptivo, debemos añadir la etiqueta `alt` y el 
 ```html
 <!-- Correcto -->
 <a href="#url">
-    <img src="lupa.jpg" alt="Buscar">
+    <img src="lupa.jpg" alt="Buscar" />
 </a>
 ```
 
@@ -55,13 +55,13 @@ Si el enlace tiene texto descriptivo, debemos dejar vacío el atributo `alt`
 ```html
 <!-- Correcto, no añadimos alt ya que el enlace tiene texto -->
 <a href="#url">
-    <img src="lupa.jpg" alt="">
+    <img src="lupa.jpg" alt="" />
     Buscar
 </a>
 
 <!-- Incorrecto, duplicidad de información, texto y alt -->
 <a href="#url">
-    <img src="lupa.jpg" alt="Buscar">
+    <img src="lupa.jpg" alt="Buscar" />
     Buscar
 </a>
 ```
@@ -71,20 +71,20 @@ Si el enlace tiene texto descriptivo, debemos dejar vacío el atributo `alt`
 
 <!-- Correcto -->
 <button>
-  <img src="impresora.png" alt="Imprimir documento" title="Imprimir documento">
+  <img src="impresora.png" alt="Imprimir documento" title="Imprimir documento" />
 </button>
 
 <button aria-label="Imprimir documento">
-  <img src="impresora.png" alt>
+  <img src="impresora.png" alt />
 </button>
 
 <button>
-  <img src="impresora.png" alt>
+  <img src="impresora.png" alt />
   Imprimir
 </button>
 
 <button>
-  <img src="impresora.png" alt>
+  <img src="impresora.png" alt />
   <span class="ocultar" role="presentation">Imprimir</span>
 </button>
 ```

@@ -12,19 +12,15 @@ keywords: [enlaces, links]
 **Resumen para crear enlaces accesibles:**
 
 - Evita usar los clásicos "más información", "click aquí", se descriptivo.
-- Debe tener un href definido.
-- Tienen que **distinguirse visualmente del resto** de texto.
-- **Deben resaltar cuando reciben el foco** de teclado.
+- Debe tener un `href`.
+- Tienen que **distinguirse visualmente del resto** de texto, debe cumplir al menos una de estas soluciones:
+    - Estar subrayado (solución óptima)
+    - Tener un color distinto al del texto con un contraste 3:1
+- **Deben resaltar cuando reciben el foco**:
+    - Subrayar. (Si por defecto ya estaba subrayado, usar un outline de 1px de grosor mínimo)
+    - Se puede añadir un fondo de color, con un contraste mínimo de 3:1 
 
-### Resaltar foco sobre enlaces
-
-Hay dos formas para resaltar los enlaces debemos usar un contorno (outline) con las siguientes propiedades:
-
-- Al menos 1px de grosor
-- Recomendable sea línea sólida
-- Rodear el elemento entero
-
-El contraste del elemento focalizado debe ser al menos de **3:1** contra el fondo que lo contenga.
+> Lo óptimo para destacar los enlaces por defecto es que estén subrayados.
 
 :::tip Nota
 Utiliza enlaces "Saltar al contenido principal" - por ejemplo, añadiendo un enlace en la parte superior de la página que lleve al usuario al comienzo del contenido principal.

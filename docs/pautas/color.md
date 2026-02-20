@@ -66,6 +66,19 @@ Como solución, podemos añadir sobre estos colores, etiquetas de texto o textur
 
 <img src="/img/accesible-grafica.svg" class="full" />
 
+
+
+También es necesario añadir texto alternativo con los datos que muestre el gráfico, ejemplo:
+
+```html
+<img src="grafico.png" 
+alt="Gráfico de barras que muestra las ventas unitarias en los primeros 6 meses de 2024.
+Enero 6200, febrero 9900, marzo 2500, abril 8950, mayo 10 100, junio 4150.
+Las ventas que cayeron por debajo del objetivo de 6700 ocurrieron en enero, marzo y junio.">
+
+```
+
+
 Si usamos mapas o gráficos circulares, mejoraremos el contraste añadiendo un contorno o líneas divisorias:
 
 <img src="/img/contraste-color-grafica.svg" class="full" />

@@ -61,6 +61,13 @@ Herramientas para crear, probar y mantener relaciones de contraste de color acce
 
 ---
 
+## Aumento de texto y modificación de contenido
+
+- [ZoomText](https://support.freedomscientific.com/Downloads/ZoomText), magnificador de pantalla para sistemas Windows.
+- [MAGic](https://support.freedomscientific.com/Products/Blindness/MAGic), solución de lectura y ampliación de pantalla para usuarios de computadoras con baja visión.
+
+---
+
 ## Accesibilidad en documentos
 
 [ACE](https://daisy.github.io/ace/), analiza la accesibilidad de los documentos EPUB
