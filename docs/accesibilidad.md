@@ -11,7 +11,7 @@ keywords: [accesibilidad web, pautas accesibilidad, wai-aria]
 
 La accesibilidad es el grado o nivel en el que las personas pueden utilizar un objeto, acceder a un lugar o servicio, con independencia de sus barreras geográficas, idiomáticas o de discapacidad.
 
-> "La Organización Mundial de la Salud (OMS) recoge en sus informes un total de **1000 millones de personas con discapacidad.** El acceso de estas personas a la tecnología debe tenerse en cuenta en la construcción de una sociedad igualitaria." wikipedia
+> "Cerca del dieciséis por ciento de la población mundial (mil trescientos millones de personas) poseen alguna forma de discapacidad, según la Organización Mundial de la Salud (OMS)" [Fuente OMS ↗️](https://www.who.int/es/news-room/fact-sheets/detail/disability-and-health)
 
 ## Tipos de discapacidad
 
